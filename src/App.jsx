@@ -219,7 +219,7 @@ export default function App() {
           <div style={{ height: "100vh", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", width: "100%" }}>
             <div style={{ textAlign: "center", padding: 20, width: "100%", maxWidth: 900 }}>
               <h2 style={{ marginBottom: 24, color: "#333" }}>Quelle catégorie ?</h2>
-              <div style={{ display: "grid", gridTemplateColumns: "repeat(3, minmax(0, 1fr))", gap: 16, width: "100%" }}>
+              <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(130px, 1fr))", gap: 16, width: "100%" }}>
                 <button onClick={() => startGame('animals')} style={{ padding: "16px 24px", fontSize: 18, borderRadius: 12, border: "none", background: "#4CAF50", color: "white", cursor: "pointer", transition: "background-color 0.2s" }} onMouseOver={(e) => e.target.style.background = "#43A047"} onMouseOut={(e) => e.target.style.background = "#4CAF50"}>Les animaux</button>
                 <button onClick={() => startGame('corps')} style={{ padding: "16px 24px", fontSize: 18, borderRadius: 12, border: "none", background: "#2196F3", color: "white", cursor: "pointer", transition: "background-color 0.2s" }} onMouseOver={(e) => e.target.style.background = "#1E88E5"} onMouseOut={(e) => e.target.style.background = "#2196F3"}>Les parties du corps</button>
                 <button onClick={() => startGame('nourriture')} style={{ padding: "16px 24px", fontSize: 18, borderRadius: 12, border: "none", background: "#FFDE21", color: "#333", cursor: "pointer", transition: "background-color 0.2s" }} onMouseOver={(e) => e.target.style.background = "#E6C800"} onMouseOut={(e) => e.target.style.background = "#FFDE21"}>Le nourriture</button>
@@ -329,8 +329,8 @@ export default function App() {
           }} style={{ position: "absolute", left: 16 }}>← Retour</button>
           <h3 style={{ margin: 0 }}>Pratiquer les mots</h3>
         </div>
-        <div style={{ height: "100vh", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", position: "relative" }}>
-          <div style={{ width: 400, height: 250, background: "#e8e8e8", borderRadius: 12, color: "#333", display: "flex", flexDirection: "column", justifyContent: "space-between", alignItems: "center", padding: 10, boxSizing: "border-box", position: "relative" }}>
+        <div style={{ height: "100vh", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", position: "relative", padding: "0 16px", boxSizing: "border-box" }}>
+          <div style={{ width: "100%", maxWidth: 400, height: 250, background: "#e8e8e8", borderRadius: 12, color: "#333", display: "flex", flexDirection: "column", justifyContent: "space-between", alignItems: "center", padding: 10, boxSizing: "border-box", position: "relative" }}>
             <div style={{ position: "absolute", top: 10, right: 10, fontSize: 14, color: "#666" }}>
               {currentWordIndex + 1}/{currentGameWords.length}
             </div>
@@ -364,7 +364,7 @@ export default function App() {
                 fontWeight: "bold",
                 fontSize: 14,
                 transition: "opacity 0.5s ease-in-out",
-                minWidth: "300px",
+                minWidth: "min(300px, 100vw - 32px)",
                 textAlign: "center"
               }}>
                 {feedback.message}
@@ -379,7 +379,7 @@ export default function App() {
               color: '#b71c1c',
               borderRadius: 8,
               padding: '12px 16px',
-              width: 400,
+              width: "100%", maxWidth: 400,
               boxSizing: 'border-box',
               textAlign: 'center'
             }}>
@@ -447,7 +447,7 @@ export default function App() {
                     borderRadius: 8,
                     padding: "16px",
                     boxShadow: "0 4px 12px rgba(0,0,0,0.15)",
-                    minWidth: "300px",
+                    minWidth: "min(300px, 100vw - 32px)",
                     maxWidth: "400px",
                     maxHeight: "70vh",
                     overflowY: "auto",
@@ -523,7 +523,7 @@ export default function App() {
                     borderRadius: 8,
                     padding: "16px",
                     boxShadow: "0 4px 12px rgba(0,0,0,0.15)",
-                    minWidth: "300px",
+                    minWidth: "min(300px, 100vw - 32px)",
                     maxWidth: "400px",
                     maxHeight: "70vh",
                     overflowY: "auto",
@@ -587,7 +587,7 @@ export default function App() {
                     borderRadius: 8,
                     padding: "16px",
                     boxShadow: "0 4px 12px rgba(0,0,0,0.15)",
-                    minWidth: "300px",
+                    minWidth: "min(300px, 100vw - 32px)",
                     maxWidth: "400px",
                     maxHeight: "70vh",
                     overflowY: "auto",
@@ -687,7 +687,7 @@ export default function App() {
                     borderRadius: 8,
                     padding: "16px",
                     boxShadow: "0 4px 12px rgba(0,0,0,0.15)",
-                    minWidth: "300px",
+                    minWidth: "min(300px, 100vw - 32px)",
                     maxWidth: "400px",
                     maxHeight: "70vh",
                     overflowY: "auto",
@@ -785,7 +785,7 @@ export default function App() {
                     borderRadius: 8,
                     padding: "16px",
                     boxShadow: "0 4px 12px rgba(0,0,0,0.15)",
-                    minWidth: "300px",
+                    minWidth: "min(300px, 100vw - 32px)",
                     maxWidth: "400px",
                     maxHeight: "70vh",
                     overflowY: "auto",
@@ -839,7 +839,7 @@ export default function App() {
                     borderRadius: 8,
                     padding: "16px",
                     boxShadow: "0 4px 12px rgba(0,0,0,0.15)",
-                    minWidth: "300px",
+                    minWidth: "min(300px, 100vw - 32px)",
                     maxWidth: "400px",
                     maxHeight: "70vh",
                     overflowY: "auto",
@@ -934,7 +934,7 @@ export default function App() {
                     borderRadius: 8,
                     padding: "16px",
                     boxShadow: "0 4px 12px rgba(0,0,0,0.15)",
-                    minWidth: "300px",
+                    minWidth: "min(300px, 100vw - 32px)",
                     maxWidth: "400px",
                     maxHeight: "70vh",
                     overflowY: "auto",
@@ -1009,7 +1009,7 @@ export default function App() {
                     borderRadius: 8,
                     padding: "16px",
                     boxShadow: "0 4px 12px rgba(0,0,0,0.15)",
-                    minWidth: "300px",
+                    minWidth: "min(300px, 100vw - 32px)",
                     maxWidth: "400px",
                     maxHeight: "70vh",
                     overflowY: "auto",
@@ -1062,8 +1062,8 @@ export default function App() {
               </div>
             )}
           </div>
-          <div style={{ height: "100vh", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", position: "relative" }}>
-            <div style={{ width: 400, height: 250, background: "#e8e8e8", borderRadius: 12, color: "#333", display: "flex", flexDirection: "column", justifyContent: "space-between", alignItems: "center", padding: 10, boxSizing: "border-box", position: "relative" }}>
+          <div style={{ height: "100vh", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", position: "relative", padding: "0 16px", boxSizing: "border-box" }}>
+            <div style={{ width: "100%", maxWidth: 400, height: 250, background: "#e8e8e8", borderRadius: 12, color: "#333", display: "flex", flexDirection: "column", justifyContent: "space-between", alignItems: "center", padding: 10, boxSizing: "border-box", position: "relative" }}>
               <div style={{ position: "absolute", top: 10, right: 10, fontSize: 14, color: "#666" }}>
                 {currentWordIndex + 1}/{currentGameWords.length}
               </div>
@@ -1097,7 +1097,7 @@ export default function App() {
                   fontWeight: "bold",
                   fontSize: 14,
                   transition: "opacity 0.5s ease-in-out",
-                  minWidth: "300px",
+                  minWidth: "min(300px, 100vw - 32px)",
                   textAlign: "center"
                 }}>
                   {feedback.message}
@@ -1112,7 +1112,7 @@ export default function App() {
                 color: '#b71c1c',
                 borderRadius: 8,
                 padding: '12px 16px',
-                width: 400,
+                width: "100%", maxWidth: 400,
                 boxSizing: 'border-box',
                 textAlign: 'center'
               }}>
@@ -1199,7 +1199,7 @@ export default function App() {
         <div style={{ height: "100vh", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", width: "100%" }}>
           <div style={{ textAlign: "center", padding: 20, width: "100%", maxWidth: 900 }}>
             <h2 style={{ marginBottom: 24, color: "#333" }}>Quelle catégorie ?</h2>
-            <div style={{ display: "grid", gridTemplateColumns: "repeat(3, minmax(0, 1fr))", gap: 16, width: "100%" }}>
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(130px, 1fr))", gap: 16, width: "100%" }}>
               <button onClick={() => startGame('verbes')} style={{ padding: "16px 24px", fontSize: 18, borderRadius: 12, border: "none", background: "#4CAF50", color: "white", cursor: "pointer", transition: "background-color 0.2s" }} onMouseOver={(e) => e.target.style.background = "#43A047"} onMouseOut={(e) => e.target.style.background = "#4CAF50"}>Les verbes les plus courants</button>
               <button onClick={() => startGame('vandertramp')} style={{ padding: "16px 24px", fontSize: 18, borderRadius: 12, border: "none", background: "#2196F3", color: "white", cursor: "pointer", transition: "background-color 0.2s" }} onMouseOver={(e) => e.target.style.background = "#1E88E5"} onMouseOut={(e) => e.target.style.background = "#2196F3"}>Dr. & Mrs. Vandertramp</button>
               <button onClick={() => startGame('passeComposé')} style={{ padding: "16px 24px", fontSize: 18, borderRadius: 12, border: "none", background: "#009688", color: "white", cursor: "pointer", transition: "background-color 0.2s" }} onMouseOver={(e) => e.target.style.background = "#00897B"} onMouseOut={(e) => e.target.style.background = "#009688"}>Passé composé</button>
@@ -1269,7 +1269,7 @@ export default function App() {
                   borderRadius: 8,
                   padding: "16px",
                   boxShadow: "0 4px 12px rgba(0,0,0,0.15)",
-                  minWidth: "300px",
+                  minWidth: "min(300px, 100vw - 32px)",
                   maxWidth: "400px",
                   maxHeight: "70vh",
                   overflowY: "auto",
@@ -1381,7 +1381,7 @@ export default function App() {
                   borderRadius: 8,
                   padding: "16px",
                   boxShadow: "0 4px 12px rgba(0,0,0,0.15)",
-                  minWidth: "300px",
+                  minWidth: "min(300px, 100vw - 32px)",
                   maxWidth: "400px",
                   maxHeight: "70vh",
                   overflowY: "auto",
@@ -1488,7 +1488,7 @@ export default function App() {
                   borderRadius: 8,
                   padding: "16px",
                   boxShadow: "0 4px 12px rgba(0,0,0,0.15)",
-                  minWidth: "300px",
+                  minWidth: "min(300px, 100vw - 32px)",
                   maxWidth: "400px",
                   maxHeight: "70vh",
                   overflowY: "auto",
@@ -1567,7 +1567,7 @@ export default function App() {
                   borderRadius: 8,
                   padding: "16px",
                   boxShadow: "0 4px 12px rgba(0,0,0,0.15)",
-                  minWidth: "300px",
+                  minWidth: "min(300px, 100vw - 32px)",
                   maxWidth: "400px",
                   maxHeight: "70vh",
                   overflowY: "auto",
@@ -1619,8 +1619,8 @@ export default function App() {
             </div>
           )}
           </div>
-          <div style={{ height: "100vh", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", position: "relative" }}>
-            <div style={{ width: 400, height: 250, background: "#e8e8e8", borderRadius: 12, color: "#333", display: "flex", flexDirection: "column", justifyContent: "space-between", alignItems: "center", padding: 10, boxSizing: "border-box", position: "relative" }}>
+          <div style={{ height: "100vh", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", position: "relative", padding: "0 16px", boxSizing: "border-box" }}>
+            <div style={{ width: "100%", maxWidth: 400, height: 250, background: "#e8e8e8", borderRadius: 12, color: "#333", display: "flex", flexDirection: "column", justifyContent: "space-between", alignItems: "center", padding: 10, boxSizing: "border-box", position: "relative" }}>
               <div style={{ position: "absolute", top: 10, right: 10, fontSize: 14, color: "#666" }}>
                 {currentWordIndex + 1}/{currentGameWords.length}
               </div>
@@ -1661,7 +1661,7 @@ export default function App() {
                 fontWeight: "bold",
                 fontSize: 14,
                 transition: "opacity 0.5s ease-in-out",
-                minWidth: "300px",
+                minWidth: "min(300px, 100vw - 32px)",
                 textAlign: "center"
               }}>
                 {feedback.message}
@@ -1675,7 +1675,7 @@ export default function App() {
               color: '#b71c1c',
               borderRadius: 8,
               padding: '12px 16px',
-              width: 400,
+              width: "100%", maxWidth: 400,
               boxSizing: 'border-box',
               textAlign: 'center'
             }}>
@@ -1779,7 +1779,7 @@ export default function App() {
         <div style={{ height: "100vh", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", width: "100%" }}>
           <div style={{ textAlign: "center", padding: 20, width: "100%", maxWidth: 900 }}>
             <h2 style={{ marginBottom: 24, color: "#333" }}>Quelle catégorie ?</h2>
-            <div style={{ display: "grid", gridTemplateColumns: "repeat(2, minmax(0, 1fr))", gap: 16, width: "100%" }}>
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(130px, 1fr))", gap: 16, width: "100%" }}>
               <button onClick={() => startGame('articles')} style={{ padding: "16px 24px", fontSize: 18, borderRadius: 12, border: "none", background: "#E65100", color: "white", cursor: "pointer", transition: "background-color 0.2s" }} onMouseOver={(e) => e.target.style.background = "#D84315"} onMouseOut={(e) => e.target.style.background = "#E65100"}>Les articles</button>
               <button onClick={() => startGame('prepositions')} style={{ padding: "16px 24px", fontSize: 18, borderRadius: 12, border: "none", background: "#607D8B", color: "white", cursor: "pointer", transition: "background-color 0.2s" }} onMouseOver={(e) => e.target.style.background = "#546E7A"} onMouseOut={(e) => e.target.style.background = "#607D8B"}>Les prépositions</button>
               <button onClick={() => startGame('demonstratifs')} style={{ padding: "16px 24px", fontSize: 18, borderRadius: 12, border: "none", background: "#9C27B0", color: "white", cursor: "pointer", transition: "background-color 0.2s" }} onMouseOver={(e) => e.target.style.background = "#8E24AA"} onMouseOut={(e) => e.target.style.background = "#9C27B0"}>Les démonstratifs</button>
