@@ -86,7 +86,10 @@
 }
 
 .page-container-centered {
-  justify-content: center;
+  justify-content: flex-start;
+  height: 100vh;
+  overflow: hidden;
+  padding-top: 70px;
 }
 
 .grammar-dropdown-menu {
@@ -139,8 +142,8 @@
 }
 
 .quiz-box {
-  width: 100%;
-  max-width: 500px;
+  width: calc(100% - 32px);
+  max-width: 600px;
   background: #e8e8e8;
   border-radius: 12px;
   color: #333;
@@ -152,7 +155,7 @@
   gap: 16px;
   box-sizing: border-box;
   position: relative;
-  margin-top: 10vh; /* Pushed up slightly */
+  margin-top: 16px;
 }
 
 .quiz-input {
