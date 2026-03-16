@@ -212,11 +212,11 @@ export default function App() {
     if (selectedCategory === null) {
       return (
         <>
-          <div style={{ fontFamily: "system-ui, sans-serif", position: "fixed", top: 0, left: 0, right: 0, padding: "20px 16px 12px", display: "flex", alignItems: "center", justifyContent: "center" }}>
-            <button onClick={() => setView('home')} style={{ position: "absolute", left: 16 }}>← Retour</button>
-            <h3 style={{ margin: 0 }}>Pratiquer les mots</h3>
+          <div className="top-bar">
+            <button onClick={() => setView('home')} className="back-button">← Retour</button>
+            <h3 className="page-title">Pratiquer les mots</h3>
           </div>
-          <div style={{ height: "100vh", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", width: "100%" }}>
+          <div className="page-container">
             <div style={{ textAlign: "center", padding: 20, width: "100%", maxWidth: 900 }}>
               <h2 style={{ marginBottom: 24, color: "#333" }}>Quelle catégorie ?</h2>
               <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(130px, 1fr))", gap: 16, width: "100%" }}>
@@ -251,11 +251,11 @@ export default function App() {
     if (gameCompleted) {
       return (
         <>
-          <div style={{ fontFamily: "system-ui, sans-serif", position: "fixed", top: 0, left: 0, right: 0, padding: "20px 16px 12px", display: "flex", alignItems: "center", justifyContent: "center" }}>
-            {/*<button onClick={() => setView('home')} style={{ position: "absolute", left: 16 }}>← Retour</button>*/}
-            <h3 style={{ margin: 0 }}>Pratiquer les mots</h3>
+          <div className="top-bar">
+            {/*<button onClick={() => setView('home')} className="back-button">← Retour</button>*/}
+            <h3 className="page-title">Pratiquer les mots</h3>
           </div>
-          <div style={{ height: "100vh", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
+          <div className="page-container page-container-centered">
             <div style={{ textAlign: "center", padding: 20 }}>
               <h2 style={{ color: "#4CAF50", marginBottom: 20 }}>Félicitations! 🎉</h2>
               <p style={{ fontSize: 18, marginBottom: 10 }}>Vous avez terminé tous les mots!</p>
@@ -322,15 +322,15 @@ export default function App() {
 
     return (
       <>
-        <div style={{ fontFamily: "system-ui, sans-serif", position: "fixed", top: 0, left: 0, right: 0, padding: "20px 16px 12px", display: "flex", alignItems: "center", justifyContent: "center" }}>
+        <div className="top-bar">
           <button onClick={() => {
             resetGame()
             setView('home')
-          }} style={{ position: "absolute", left: 16 }}>← Retour</button>
-          <h3 style={{ margin: 0 }}>Pratiquer les mots</h3>
+          }} className="back-button">← Retour</button>
+          <h3 className="page-title">Pratiquer les mots</h3>
         </div>
-        <div style={{ height: "100vh", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", position: "relative", padding: "0 16px", boxSizing: "border-box" }}>
-          <div style={{ width: "100%", maxWidth: 400, height: 250, background: "#e8e8e8", borderRadius: 12, color: "#333", display: "flex", flexDirection: "column", justifyContent: "space-between", alignItems: "center", padding: 10, boxSizing: "border-box", position: "relative" }}>
+        <div className="page-container page-container-centered">
+          <div className="quiz-box">
             <div style={{ position: "absolute", top: 10, right: 10, fontSize: 14, color: "#666" }}>
               {currentWordIndex + 1}/{currentGameWords.length}
             </div>
@@ -352,7 +352,7 @@ export default function App() {
               value={userAnswer}
               onChange={(e) => setUserAnswer(e.target.value)}
               onKeyPress={handleKeyPress}
-              style={{ width: "100%", boxSizing: "border-box", padding: "8px 10px", borderRadius: 8, border: "1px solid #ccc", background: "#c8c8c8", color: "#666" }} 
+              className="quiz-input" 
             />
             {feedback.show && (
               <div style={{ 
@@ -408,7 +408,7 @@ export default function App() {
     if (selectedCategory !== null && currentGameWords.length > 0 && !gameCompleted) {
       return (
         <>
-          <div style={{ fontFamily: "system-ui, sans-serif", position: "fixed", top: 0, left: 0, right: 0, padding: "20px 16px 12px", display: "flex", alignItems: "center", justifyContent: "center" }}>
+          <div className="top-bar">
             <button onClick={() => {
               setCurrentWordIndex(0)
               setUserAnswer('')
@@ -419,8 +419,8 @@ export default function App() {
               setCorrectCount(0)
               setWrongWords([])
               setSelectedCategory(null)
-            }} style={{ position: "absolute", left: 16 }}>← Retour</button>
-            <h3 style={{ margin: 0 }}>Pratiquer les verbes</h3>
+            }} className="back-button">← Retour</button>
+            <h3 className="page-title">Pratiquer les verbes</h3>
             {selectedCategory === 'passeComposé' && (
               <div style={{ position: "absolute", right: 16, top: 20 }}>
                 <button 
@@ -438,21 +438,7 @@ export default function App() {
                   📚 Grammar
                 </button>
                 {showGrammarDropdown && (
-                  <div style={{
-                    position: "absolute",
-                    top: 40,
-                    right: 0,
-                    background: "white",
-                    border: "1px solid #ccc",
-                    borderRadius: 8,
-                    padding: "16px",
-                    boxShadow: "0 4px 12px rgba(0,0,0,0.15)",
-                    minWidth: "min(300px, 100vw - 32px)",
-                    maxWidth: "400px",
-                    maxHeight: "70vh",
-                    overflowY: "auto",
-                    zIndex: 1000
-                  }}>
+                  <div className="grammar-dropdown-menu">
                     <div style={{ fontSize: 14, lineHeight: 1.5, color: "#333", paddingBottom: "20px"}}>
                       <div style={{ fontWeight: "bold", marginBottom: 8 }}>Passé composé</div>
                       <div style={{ marginBottom: 12 }}>
@@ -514,21 +500,7 @@ export default function App() {
                   📚 Grammar
                 </button>
                 {showGrammarDropdown && (
-                  <div style={{
-                    position: "absolute",
-                    top: 40,
-                    right: 0,
-                    background: "white",
-                    border: "1px solid #ccc",
-                    borderRadius: 8,
-                    padding: "16px",
-                    boxShadow: "0 4px 12px rgba(0,0,0,0.15)",
-                    minWidth: "min(300px, 100vw - 32px)",
-                    maxWidth: "400px",
-                    maxHeight: "70vh",
-                    overflowY: "auto",
-                    zIndex: 1000
-                  }}>
+                  <div className="grammar-dropdown-menu">
                     <div style={{ fontSize: 14, lineHeight: 1.5, color: "#333", paddingBottom: "20px" }}>
                       <div style={{ fontWeight: "bold", marginBottom: 8 }}>Futur proche</div>
                       <div style={{ marginBottom: 12 }}>
@@ -578,21 +550,7 @@ export default function App() {
                   📚 Grammar
                 </button>
                 {showGrammarDropdown && (
-                  <div style={{
-                    position: "absolute",
-                    top: 40,
-                    right: 0,
-                    background: "white",
-                    border: "1px solid #ccc",
-                    borderRadius: 8,
-                    padding: "16px",
-                    boxShadow: "0 4px 12px rgba(0,0,0,0.15)",
-                    minWidth: "min(300px, 100vw - 32px)",
-                    maxWidth: "400px",
-                    maxHeight: "70vh",
-                    overflowY: "auto",
-                    zIndex: 1000
-                  }}>
+                  <div className="grammar-dropdown-menu">
                     <div style={{ fontSize: 14, lineHeight: 1.5, color: "#333", paddingBottom: "20px" }}>
                       <div style={{ fontWeight: "bold", marginBottom: 8 }}>Futur simple</div>
                       <div style={{ marginBottom: 12 }}>
@@ -678,21 +636,7 @@ export default function App() {
                   📚 Grammar
                 </button>
                 {showGrammarDropdown && (
-                  <div style={{
-                    position: "absolute",
-                    top: 40,
-                    right: 0,
-                    background: "white",
-                    border: "1px solid #ccc",
-                    borderRadius: 8,
-                    padding: "16px",
-                    boxShadow: "0 4px 12px rgba(0,0,0,0.15)",
-                    minWidth: "min(300px, 100vw - 32px)",
-                    maxWidth: "400px",
-                    maxHeight: "70vh",
-                    overflowY: "auto",
-                    zIndex: 1000
-                  }}>
+                  <div className="grammar-dropdown-menu">
                     <div style={{ fontSize: 14, lineHeight: 1.5, color: "#333", paddingBottom: "20px" }}>
                       <div style={{ fontWeight: "bold", marginBottom: 8 }}>L'imparfait</div>
                       <div style={{ marginBottom: 12 }}>
@@ -776,21 +720,7 @@ export default function App() {
                   📚 Grammar
                 </button>
                 {showGrammarDropdown && (
-                  <div style={{
-                    position: "absolute",
-                    top: 40,
-                    right: 0,
-                    background: "white",
-                    border: "1px solid #ccc",
-                    borderRadius: 8,
-                    padding: "16px",
-                    boxShadow: "0 4px 12px rgba(0,0,0,0.15)",
-                    minWidth: "min(300px, 100vw - 32px)",
-                    maxWidth: "400px",
-                    maxHeight: "70vh",
-                    overflowY: "auto",
-                    zIndex: 1000
-                  }}>
+                  <div className="grammar-dropdown-menu">
                     <div style={{ fontSize: 14, lineHeight: 1.5, color: "#333", paddingBottom: "20px" }}>
                       <div style={{ fontWeight: "bold", marginBottom: 8 }}>Dr. & Mrs. Vandertramp</div>
                       <div style={{ marginBottom: 12 }}>
@@ -830,21 +760,7 @@ export default function App() {
                   📚 Grammar
                 </button>
                 {showGrammarDropdown && (
-                  <div style={{
-                    position: "absolute",
-                    top: 40,
-                    right: 0,
-                    background: "white",
-                    border: "1px solid #ccc",
-                    borderRadius: 8,
-                    padding: "16px",
-                    boxShadow: "0 4px 12px rgba(0,0,0,0.15)",
-                    minWidth: "min(300px, 100vw - 32px)",
-                    maxWidth: "400px",
-                    maxHeight: "70vh",
-                    overflowY: "auto",
-                    zIndex: 1000
-                  }}>
+                  <div className="grammar-dropdown-menu">
                     <div style={{ fontSize: 14, lineHeight: 1.5, color: "#333", paddingBottom: "20px" }}>
                       <div style={{ fontWeight: "bold", marginBottom: 12, fontSize: 16 }}>📌 🇫🇷 Present Tense — Regular Verb Endings</div>
                       
@@ -925,21 +841,7 @@ export default function App() {
                   📚 Grammar
                 </button>
                 {showGrammarDropdown && (
-                  <div style={{
-                    position: "absolute",
-                    top: 40,
-                    right: 0,
-                    background: "white",
-                    border: "1px solid #ccc",
-                    borderRadius: 8,
-                    padding: "16px",
-                    boxShadow: "0 4px 12px rgba(0,0,0,0.15)",
-                    minWidth: "min(300px, 100vw - 32px)",
-                    maxWidth: "400px",
-                    maxHeight: "70vh",
-                    overflowY: "auto",
-                    zIndex: 1000
-                  }}>
+                  <div className="grammar-dropdown-menu">
                     <div style={{ fontSize: 14, lineHeight: 1.5, color: "#333", paddingBottom: "20px" }}>
                       <div style={{ fontWeight: "bold", marginBottom: 12, fontSize: 16 }}>🔄 Reflexive Verbs (Verbes Pronominaux)</div>
                       
@@ -1000,21 +902,7 @@ export default function App() {
                   📚 Grammar
                 </button>
                 {showGrammarDropdown && (
-                  <div style={{
-                    position: "absolute",
-                    top: 40,
-                    right: 0,
-                    background: "white",
-                    border: "1px solid #ccc",
-                    borderRadius: 8,
-                    padding: "16px",
-                    boxShadow: "0 4px 12px rgba(0,0,0,0.15)",
-                    minWidth: "min(300px, 100vw - 32px)",
-                    maxWidth: "400px",
-                    maxHeight: "70vh",
-                    overflowY: "auto",
-                    zIndex: 1000
-                  }}>
+                  <div className="grammar-dropdown-menu">
                     <div style={{ fontSize: 14, lineHeight: 1.5, color: "#333", paddingBottom: "20px" }}>
                       <div style={{ fontWeight: "bold", marginBottom: 12, fontSize: 16 }}>⚡ L'Impératif</div>
                       
@@ -1062,8 +950,8 @@ export default function App() {
               </div>
             )}
           </div>
-          <div style={{ height: "100vh", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", position: "relative", padding: "0 16px", boxSizing: "border-box" }}>
-            <div style={{ width: "100%", maxWidth: 400, height: 250, background: "#e8e8e8", borderRadius: 12, color: "#333", display: "flex", flexDirection: "column", justifyContent: "space-between", alignItems: "center", padding: 10, boxSizing: "border-box", position: "relative" }}>
+          <div className="page-container page-container-centered">
+            <div className="quiz-box">
               <div style={{ position: "absolute", top: 10, right: 10, fontSize: 14, color: "#666" }}>
                 {currentWordIndex + 1}/{currentGameWords.length}
               </div>
@@ -1085,7 +973,7 @@ export default function App() {
                 value={userAnswer}
                 onChange={(e) => setUserAnswer(e.target.value)}
                 onKeyPress={handleKeyPress}
-                style={{ width: "100%", boxSizing: "border-box", padding: "8px 10px", borderRadius: 8, border: "1px solid #ccc", background: "#c8c8c8", color: "#666" }} 
+                className="quiz-input" 
               />
               {feedback.show && (
                 <div style={{ 
@@ -1140,10 +1028,10 @@ export default function App() {
     if (gameCompleted) {
       return (
         <>
-          <div style={{ fontFamily: "system-ui, sans-serif", position: "fixed", top: 0, left: 0, right: 0, padding: "20px 16px 12px", display: "flex", alignItems: "center", justifyContent: "center" }}>
-            <h3 style={{ margin: 0 }}>Pratiquer les verbes</h3>
+          <div className="top-bar">
+            <h3 className="page-title">Pratiquer les verbes</h3>
           </div>
-          <div style={{ height: "100vh", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
+          <div className="page-container page-container-centered">
             <div style={{ textAlign: "center", padding: 20 }}>
               <h2 style={{ color: "#4CAF50", marginBottom: 20 }}>Félicitations! 🎉</h2>
               <p style={{ fontSize: 16, marginBottom: 20 }}>
@@ -1192,11 +1080,11 @@ export default function App() {
     // Else show verbs category selection grid
     return (
       <>
-        <div style={{ fontFamily: "system-ui, sans-serif", position: "fixed", top: 0, left: 0, right: 0, padding: "20px 16px 12px", display: "flex", alignItems: "center", justifyContent: "center" }}>
-          <button onClick={() => setView('home')} style={{ position: "absolute", left: 16 }}>← Retour</button>
-          <h3 style={{ margin: 0 }}>Pratiquer les verbes</h3>
+        <div className="top-bar">
+          <button onClick={() => setView('home')} className="back-button">← Retour</button>
+          <h3 className="page-title">Pratiquer les verbes</h3>
         </div>
-        <div style={{ height: "100vh", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", width: "100%" }}>
+        <div className="page-container">
           <div style={{ textAlign: "center", padding: 20, width: "100%", maxWidth: 900 }}>
             <h2 style={{ marginBottom: 24, color: "#333" }}>Quelle catégorie ?</h2>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(130px, 1fr))", gap: 16, width: "100%" }}>
@@ -1227,7 +1115,7 @@ export default function App() {
              
       return (
         <>
-          <div style={{ fontFamily: "system-ui, sans-serif", position: "fixed", top: 0, left: 0, right: 0, padding: "20px 16px 12px", display: "flex", alignItems: "center", justifyContent: "center" }}>
+          <div className="top-bar">
             <button onClick={() => {
               setCurrentWordIndex(0)
               setUserAnswer('')
@@ -1241,8 +1129,8 @@ export default function App() {
               setCorrectCount(0)
               setWrongWords([])
               setShowGrammarDropdown(false)
-            }} style={{ position: "absolute", left: 16 }}>← Retour</button>
-            <h3 style={{ margin: 0 }}>Pratiquer la grammaire</h3>
+            }} className="back-button">← Retour</button>
+            <h3 className="page-title">Pratiquer la grammaire</h3>
             {selectedCategory === 'articles' && (
             <div style={{ position: "absolute", right: 16, top: 20 }}>
               <button 
@@ -1260,21 +1148,7 @@ export default function App() {
                 📚 Grammar
               </button>
               {showGrammarDropdown && (
-                <div style={{
-                  position: "absolute",
-                  top: 40,
-                  right: 0,
-                  background: "white",
-                  border: "1px solid #ccc",
-                  borderRadius: 8,
-                  padding: "16px",
-                  boxShadow: "0 4px 12px rgba(0,0,0,0.15)",
-                  minWidth: "min(300px, 100vw - 32px)",
-                  maxWidth: "400px",
-                  maxHeight: "70vh",
-                  overflowY: "auto",
-                  zIndex: 1000
-                }}>
+                <div className="grammar-dropdown-menu">
                   <div style={{ fontSize: 14, lineHeight: 1.5, color: "#333", paddingBottom: "20px" }}>
                     <div style={{ fontWeight: "bold", marginBottom: 12, fontSize: 16 }}>📝 📌 French Articles — Mini Cheat Sheet</div>
                     
@@ -1372,21 +1246,7 @@ export default function App() {
                 📚 Grammar
               </button>
               {showGrammarDropdown && (
-                <div style={{
-                  position: "absolute",
-                  top: 40,
-                  right: 0,
-                  background: "white",
-                  border: "1px solid #ccc",
-                  borderRadius: 8,
-                  padding: "16px",
-                  boxShadow: "0 4px 12px rgba(0,0,0,0.15)",
-                  minWidth: "min(300px, 100vw - 32px)",
-                  maxWidth: "400px",
-                  maxHeight: "70vh",
-                  overflowY: "auto",
-                  zIndex: 1000
-                }}>
+                <div className="grammar-dropdown-menu">
                   <div style={{ fontSize: 14, lineHeight: 1.5, color: "#333", paddingBottom: "20px" }}>
                     <div style={{ fontWeight: "bold", marginBottom: 12, fontSize: 16 }}>📍 French Prepositions</div>
                     
@@ -1479,21 +1339,7 @@ export default function App() {
                 📚 Grammar
               </button>
               {showGrammarDropdown && (
-                <div style={{
-                  position: "absolute",
-                  top: 40,
-                  right: 0,
-                  background: "white",
-                  border: "1px solid #ccc",
-                  borderRadius: 8,
-                  padding: "16px",
-                  boxShadow: "0 4px 12px rgba(0,0,0,0.15)",
-                  minWidth: "min(300px, 100vw - 32px)",
-                  maxWidth: "400px",
-                  maxHeight: "70vh",
-                  overflowY: "auto",
-                  zIndex: 1000
-                }}>
+                <div className="grammar-dropdown-menu">
                   <div style={{ fontSize: 14, lineHeight: 1.5, color: "#333", paddingBottom: "20px" }}>
                     <div style={{ fontWeight: "bold", marginBottom: 12, fontSize: 16 }}>🔍 French Demonstratives</div>
                     
@@ -1558,21 +1404,7 @@ export default function App() {
                 📚 Grammar
               </button>
               {showGrammarDropdown && (
-                <div style={{
-                  position: "absolute",
-                  top: 40,
-                  right: 0,
-                  background: "white",
-                  border: "1px solid #ccc",
-                  borderRadius: 8,
-                  padding: "16px",
-                  boxShadow: "0 4px 12px rgba(0,0,0,0.15)",
-                  minWidth: "min(300px, 100vw - 32px)",
-                  maxWidth: "400px",
-                  maxHeight: "70vh",
-                  overflowY: "auto",
-                  zIndex: 1000
-                }}>
+                <div className="grammar-dropdown-menu">
                   <div style={{ fontSize: 14, lineHeight: 1.5, color: "#333", paddingBottom: "20px" }}>
                     <div style={{ fontWeight: "bold", marginBottom: 12, fontSize: 16 }}>🎯 Les Pronoms Compléments</div>
                     
@@ -1619,8 +1451,8 @@ export default function App() {
             </div>
           )}
           </div>
-          <div style={{ height: "100vh", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", position: "relative", padding: "0 16px", boxSizing: "border-box" }}>
-            <div style={{ width: "100%", maxWidth: 400, height: 250, background: "#e8e8e8", borderRadius: 12, color: "#333", display: "flex", flexDirection: "column", justifyContent: "space-between", alignItems: "center", padding: 10, boxSizing: "border-box", position: "relative" }}>
+          <div className="page-container page-container-centered">
+            <div className="quiz-box">
               <div style={{ position: "absolute", top: 10, right: 10, fontSize: 14, color: "#666" }}>
                 {currentWordIndex + 1}/{currentGameWords.length}
               </div>
@@ -1648,7 +1480,7 @@ export default function App() {
                 value={userAnswer}
                 onChange={(e) => setUserAnswer(e.target.value)}
                 onKeyPress={handleKeyPress}
-                style={{ width: "100%", boxSizing: "border-box", padding: "8px 10px", borderRadius: 8, border: "1px solid #ccc", background: "#c8c8c8", color: "#666" }} 
+                className="quiz-input" 
               />
             </div>
             {feedback.show && (
@@ -1703,10 +1535,10 @@ export default function App() {
     if (selectedCategory !== null && gameCompleted) {
       return (
         <>
-          <div style={{ fontFamily: "system-ui, sans-serif", position: "fixed", top: 0, left: 0, right: 0, padding: "20px 16px 12px", display: "flex", alignItems: "center", justifyContent: "center" }}>
-            <h3 style={{ margin: 0 }}>Pratiquer la grammaire</h3>
+          <div className="top-bar">
+            <h3 className="page-title">Pratiquer la grammaire</h3>
           </div>
-          <div style={{ height: "100vh", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
+          <div className="page-container page-container-centered">
             <div style={{ textAlign: "center", padding: 20 }}>
               <h2 style={{ color: "#4CAF50", marginBottom: 20 }}>Félicitations! 🎉</h2>
               <p style={{ fontSize: 16, marginBottom: 20 }}>
@@ -1772,11 +1604,11 @@ export default function App() {
 
     return (
       <>
-        <div style={{ fontFamily: "system-ui, sans-serif", position: "fixed", top: 0, left: 0, right: 0, padding: "20px 16px 12px", display: "flex", alignItems: "center", justifyContent: "center" }}>
-          <button onClick={() => setView('home')} style={{ position: "absolute", left: 16 }}>← Retour</button>
-          <h3 style={{ margin: 0 }}>Pratiquer la grammaire</h3>
+        <div className="top-bar">
+          <button onClick={() => setView('home')} className="back-button">← Retour</button>
+          <h3 className="page-title">Pratiquer la grammaire</h3>
         </div>
-        <div style={{ height: "100vh", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", width: "100%" }}>
+        <div className="page-container">
           <div style={{ textAlign: "center", padding: 20, width: "100%", maxWidth: 900 }}>
             <h2 style={{ marginBottom: 24, color: "#333" }}>Quelle catégorie ?</h2>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(130px, 1fr))", gap: 16, width: "100%" }}>
@@ -1804,7 +1636,7 @@ export default function App() {
       <div style={{ fontFamily: "system-ui, sans-serif", textAlign: "center", marginTop: "40px" }}>
         <h1>Salut 👋</h1>
         <p>Bienvenue à mon appli pour pratiquer le français!</p>
-        <div style={{ display: "inline-flex", gap: "12px", marginTop: "20px" }}>
+        <div style={{ display: "inline-flex", flexWrap: "wrap", justifyContent: "center", gap: "12px", marginTop: "20px", padding: "0 16px" }}>
           <button onClick={() => setView('mots')}>Pratiquer les mots</button>
           <button onClick={() => setView('verbes')}>Pratiquer les verbes</button>
           <button onClick={() => setView('grammaire')}>Pratiquer la grammaire</button>
