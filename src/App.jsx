@@ -434,9 +434,8 @@ export default function App() {
                     cursor: "pointer",
                     color: "#333"
                   }}
-                >��</button>
-                {showGrammarDropdown && (
-                  <div className="grammar-dropdown-menu">
+                >{"\u{1F4D6}"}</button>
+                <div className={`grammar-dropdown-menu ${showGrammarDropdown ? 'open' : ''}`}>
                     <div style={{ fontSize: 14, lineHeight: 1.5, color: "#333", paddingBottom: "20px"}}>
                       <div style={{ fontWeight: "bold", marginBottom: 8 }}>Passé composé</div>
                       <div style={{ marginBottom: 12 }}>
@@ -478,7 +477,6 @@ export default function App() {
                       </div>
                     </div>
                   </div>
-                )}
               </div>
             )}
             {selectedCategory === 'futurProche' && (
@@ -494,9 +492,8 @@ export default function App() {
                     cursor: "pointer",
                     color: "#333"
                   }}
-                >��</button>
-                {showGrammarDropdown && (
-                  <div className="grammar-dropdown-menu">
+                >{"\u{1F4D6}"}</button>
+                <div className={`grammar-dropdown-menu ${showGrammarDropdown ? 'open' : ''}`}>
                     <div style={{ fontSize: 14, lineHeight: 1.5, color: "#333", paddingBottom: "20px" }}>
                       <div style={{ fontWeight: "bold", marginBottom: 8 }}>Futur proche</div>
                       <div style={{ marginBottom: 12 }}>
@@ -526,7 +523,6 @@ export default function App() {
                       </div>
                     </div>
                   </div>
-                )}
               </div>
             )}
             {selectedCategory === 'futurSimple' && (
@@ -542,9 +538,8 @@ export default function App() {
                     cursor: "pointer",
                     color: "#333"
                   }}
-                >��</button>
-                {showGrammarDropdown && (
-                  <div className="grammar-dropdown-menu">
+                >{"\u{1F4D6}"}</button>
+                <div className={`grammar-dropdown-menu ${showGrammarDropdown ? 'open' : ''}`}>
                     <div style={{ fontSize: 14, lineHeight: 1.5, color: "#333", paddingBottom: "20px" }}>
                       <div style={{ fontWeight: "bold", marginBottom: 8 }}>Futur simple</div>
                       <div style={{ marginBottom: 12 }}>
@@ -610,7 +605,6 @@ export default function App() {
                       </div>
                     </div>
                   </div>
-                )}
               </div>
             )}
             {selectedCategory === 'imparfait' && (
@@ -626,9 +620,8 @@ export default function App() {
                     cursor: "pointer",
                     color: "#333"
                   }}
-                >��</button>
-                {showGrammarDropdown && (
-                  <div className="grammar-dropdown-menu">
+                >{"\u{1F4D6}"}</button>
+                <div className={`grammar-dropdown-menu ${showGrammarDropdown ? 'open' : ''}`}>
                     <div style={{ fontSize: 14, lineHeight: 1.5, color: "#333", paddingBottom: "20px" }}>
                       <div style={{ fontWeight: "bold", marginBottom: 8 }}>L'imparfait</div>
                       <div style={{ marginBottom: 12 }}>
@@ -692,7 +685,6 @@ export default function App() {
                       </div>
                     </div>
                   </div>
-                )}
               </div>
             )}
             {selectedCategory === 'vandertramp' && (
@@ -708,9 +700,8 @@ export default function App() {
                     cursor: "pointer",
                     color: "#333"
                   }}
-                >��</button>
-                {showGrammarDropdown && (
-                  <div className="grammar-dropdown-menu">
+                >{"\u{1F4D6}"}</button>
+                <div className={`grammar-dropdown-menu ${showGrammarDropdown ? 'open' : ''}`}>
                     <div style={{ fontSize: 14, lineHeight: 1.5, color: "#333", paddingBottom: "20px" }}>
                       <div style={{ fontWeight: "bold", marginBottom: 8 }}>Dr. & Mrs. Vandertramp</div>
                       <div style={{ marginBottom: 12 }}>
@@ -730,7 +721,6 @@ export default function App() {
                       </div>
                     </div>
                   </div>
-                )}
               </div>
             )}
             {selectedCategory === 'present' && (
@@ -746,9 +736,8 @@ export default function App() {
                     cursor: "pointer",
                     color: "#333"
                   }}
-                >��</button>
-                {showGrammarDropdown && (
-                  <div className="grammar-dropdown-menu">
+                >{"\u{1F4D6}"}</button>
+                <div className={`grammar-dropdown-menu ${showGrammarDropdown ? 'open' : ''}`}>
                     <div style={{ fontSize: 14, lineHeight: 1.5, color: "#333", paddingBottom: "20px" }}>
                       <div style={{ fontWeight: "bold", marginBottom: 12, fontSize: 16 }}>📌 🇫🇷 Present Tense — Regular Verb Endings</div>
                       
@@ -809,7 +798,6 @@ export default function App() {
                       </div>
                     </div>
                   </div>
-                )}
               </div>
             )}
             {selectedCategory === 'pronominaux' && (
@@ -825,9 +813,8 @@ export default function App() {
                     cursor: "pointer",
                     color: "#333"
                   }}
-                >��</button>
-                {showGrammarDropdown && (
-                  <div className="grammar-dropdown-menu">
+                >{"\u{1F4D6}"}</button>
+                <div className={`grammar-dropdown-menu ${showGrammarDropdown ? 'open' : ''}`}>
                     <div style={{ fontSize: 14, lineHeight: 1.5, color: "#333", paddingBottom: "20px" }}>
                       <div style={{ fontWeight: "bold", marginBottom: 12, fontSize: 16 }}>🔄 Reflexive Verbs (Verbes Pronominaux)</div>
                       
@@ -868,7 +855,6 @@ export default function App() {
                       </div>
                     </div>
                   </div>
-                )}
               </div>
             )}
             {selectedCategory === 'imperatif' && (
@@ -884,9 +870,8 @@ export default function App() {
                     cursor: "pointer",
                     color: "#333"
                   }}
-                >��</button>
-                {showGrammarDropdown && (
-                  <div className="grammar-dropdown-menu">
+                >{"\u{1F4D6}"}</button>
+                <div className={`grammar-dropdown-menu ${showGrammarDropdown ? 'open' : ''}`}>
                     <div style={{ fontSize: 14, lineHeight: 1.5, color: "#333", paddingBottom: "20px" }}>
                       <div style={{ fontWeight: "bold", marginBottom: 12, fontSize: 16 }}>⚡ L'Impératif</div>
                       
@@ -930,7 +915,6 @@ export default function App() {
                       </div>
                     </div>
                   </div>
-                )}
               </div>
             )}
           </div>
@@ -1128,9 +1112,8 @@ export default function App() {
                   cursor: "pointer",
                   color: "#333"
                 }}
-              >��</button>
-              {showGrammarDropdown && (
-                <div className="grammar-dropdown-menu">
+              >{"\u{1F4D6}"}</button>
+              <div className={`grammar-dropdown-menu ${showGrammarDropdown ? 'open' : ''}`}>
                   <div style={{ fontSize: 14, lineHeight: 1.5, color: "#333", paddingBottom: "20px" }}>
                     <div style={{ fontWeight: "bold", marginBottom: 12, fontSize: 16 }}>📝 📌 French Articles — Mini Cheat Sheet</div>
                     
@@ -1208,7 +1191,6 @@ export default function App() {
                     </div>
                   </div>
                 </div>
-              )}
             </div>
           )}
           {selectedCategory === 'prepositions' && (
@@ -1224,9 +1206,8 @@ export default function App() {
                   cursor: "pointer",
                   color: "#333"
                 }}
-              >��</button>
-              {showGrammarDropdown && (
-                <div className="grammar-dropdown-menu">
+              >{"\u{1F4D6}"}</button>
+              <div className={`grammar-dropdown-menu ${showGrammarDropdown ? 'open' : ''}`}>
                   <div style={{ fontSize: 14, lineHeight: 1.5, color: "#333", paddingBottom: "20px" }}>
                     <div style={{ fontWeight: "bold", marginBottom: 12, fontSize: 16 }}>📍 French Prepositions</div>
                     
@@ -1299,7 +1280,6 @@ export default function App() {
                     </div>
                   </div>
                 </div>
-              )}
             </div>
           )}
           {selectedCategory === 'demonstratifs' && (
@@ -1315,9 +1295,8 @@ export default function App() {
                   cursor: "pointer",
                   color: "#333"
                 }}
-              >��</button>
-              {showGrammarDropdown && (
-                <div className="grammar-dropdown-menu">
+              >{"\u{1F4D6}"}</button>
+              <div className={`grammar-dropdown-menu ${showGrammarDropdown ? 'open' : ''}`}>
                   <div style={{ fontSize: 14, lineHeight: 1.5, color: "#333", paddingBottom: "20px" }}>
                     <div style={{ fontWeight: "bold", marginBottom: 12, fontSize: 16 }}>🔍 French Demonstratives</div>
                     
@@ -1362,7 +1341,6 @@ export default function App() {
                     </div>
                   </div>
                 </div>
-              )}
             </div>
           )}
           {selectedCategory === 'pronoms' && (
@@ -1378,9 +1356,8 @@ export default function App() {
                   cursor: "pointer",
                   color: "#333"
                 }}
-              >��</button>
-              {showGrammarDropdown && (
-                <div className="grammar-dropdown-menu">
+              >{"\u{1F4D6}"}</button>
+              <div className={`grammar-dropdown-menu ${showGrammarDropdown ? 'open' : ''}`}>
                   <div style={{ fontSize: 14, lineHeight: 1.5, color: "#333", paddingBottom: "20px" }}>
                     <div style={{ fontWeight: "bold", marginBottom: 12, fontSize: 16 }}>🎯 Les Pronoms Compléments</div>
                     
@@ -1423,7 +1400,6 @@ export default function App() {
                     </div>
                   </div>
                 </div>
-              )}
             </div>
           )}
           </div>
