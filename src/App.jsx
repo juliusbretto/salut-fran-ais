@@ -213,7 +213,7 @@ export default function App() {
       return (
         <>
           <div className="top-bar">
-            <button onClick={() => setView('home')} className="back-button">← Retour</button>
+            <button onClick={() => setView('home')} className="back-button">←</button>
             <h3 className="page-title">Pratiquer les mots</h3>
           </div>
           <div className="page-container">
@@ -252,7 +252,7 @@ export default function App() {
       return (
         <>
           <div className="top-bar">
-            {/*<button onClick={() => setView('home')} className="back-button">← Retour</button>*/}
+            {/*<button onClick={() => setView('home')} className="back-button">←</button>*/}
             <h3 className="page-title">Pratiquer les mots</h3>
           </div>
           <div className="page-container page-container-centered">
@@ -326,7 +326,7 @@ export default function App() {
           <button onClick={() => {
             resetGame()
             setView('home')
-          }} className="back-button">← Retour</button>
+          }} className="back-button">←</button>
           <h3 className="page-title">Pratiquer les mots</h3>
         </div>
         <div className="page-container page-container-centered">
@@ -419,7 +419,7 @@ export default function App() {
               setCorrectCount(0)
               setWrongWords([])
               setSelectedCategory(null)
-            }} className="back-button">← Retour</button>
+            }} className="back-button">←</button>
             <h3 className="page-title">Pratiquer les verbes</h3>
             {selectedCategory === 'passeComposé' && (
               <div style={{ position: "absolute", right: 16, top: 20 }}>
@@ -434,9 +434,7 @@ export default function App() {
                     cursor: "pointer",
                     color: "#333"
                   }}
-                >
-                  📚 Grammar
-                </button>
+                >��</button>
                 {showGrammarDropdown && (
                   <div className="grammar-dropdown-menu">
                     <div style={{ fontSize: 14, lineHeight: 1.5, color: "#333", paddingBottom: "20px"}}>
@@ -496,9 +494,7 @@ export default function App() {
                     cursor: "pointer",
                     color: "#333"
                   }}
-                >
-                  📚 Grammar
-                </button>
+                >��</button>
                 {showGrammarDropdown && (
                   <div className="grammar-dropdown-menu">
                     <div style={{ fontSize: 14, lineHeight: 1.5, color: "#333", paddingBottom: "20px" }}>
@@ -546,9 +542,7 @@ export default function App() {
                     cursor: "pointer",
                     color: "#333"
                   }}
-                >
-                  📚 Grammar
-                </button>
+                >��</button>
                 {showGrammarDropdown && (
                   <div className="grammar-dropdown-menu">
                     <div style={{ fontSize: 14, lineHeight: 1.5, color: "#333", paddingBottom: "20px" }}>
@@ -632,9 +626,7 @@ export default function App() {
                     cursor: "pointer",
                     color: "#333"
                   }}
-                >
-                  📚 Grammar
-                </button>
+                >��</button>
                 {showGrammarDropdown && (
                   <div className="grammar-dropdown-menu">
                     <div style={{ fontSize: 14, lineHeight: 1.5, color: "#333", paddingBottom: "20px" }}>
@@ -716,9 +708,7 @@ export default function App() {
                     cursor: "pointer",
                     color: "#333"
                   }}
-                >
-                  📚 Grammar
-                </button>
+                >��</button>
                 {showGrammarDropdown && (
                   <div className="grammar-dropdown-menu">
                     <div style={{ fontSize: 14, lineHeight: 1.5, color: "#333", paddingBottom: "20px" }}>
@@ -756,9 +746,7 @@ export default function App() {
                     cursor: "pointer",
                     color: "#333"
                   }}
-                >
-                  📚 Grammar
-                </button>
+                >��</button>
                 {showGrammarDropdown && (
                   <div className="grammar-dropdown-menu">
                     <div style={{ fontSize: 14, lineHeight: 1.5, color: "#333", paddingBottom: "20px" }}>
@@ -837,9 +825,7 @@ export default function App() {
                     cursor: "pointer",
                     color: "#333"
                   }}
-                >
-                  📚 Grammar
-                </button>
+                >��</button>
                 {showGrammarDropdown && (
                   <div className="grammar-dropdown-menu">
                     <div style={{ fontSize: 14, lineHeight: 1.5, color: "#333", paddingBottom: "20px" }}>
@@ -898,9 +884,7 @@ export default function App() {
                     cursor: "pointer",
                     color: "#333"
                   }}
-                >
-                  📚 Grammar
-                </button>
+                >��</button>
                 {showGrammarDropdown && (
                   <div className="grammar-dropdown-menu">
                     <div style={{ fontSize: 14, lineHeight: 1.5, color: "#333", paddingBottom: "20px" }}>
@@ -1081,7 +1065,7 @@ export default function App() {
     return (
       <>
         <div className="top-bar">
-          <button onClick={() => setView('home')} className="back-button">← Retour</button>
+          <button onClick={() => setView('home')} className="back-button">←</button>
           <h3 className="page-title">Pratiquer les verbes</h3>
         </div>
         <div className="page-container">
@@ -1129,7 +1113,7 @@ export default function App() {
               setCorrectCount(0)
               setWrongWords([])
               setShowGrammarDropdown(false)
-            }} className="back-button">← Retour</button>
+            }} className="back-button">←</button>
             <h3 className="page-title">Pratiquer la grammaire</h3>
             {selectedCategory === 'articles' && (
             <div style={{ position: "absolute", right: 16, top: 20 }}>
@@ -1144,9 +1128,7 @@ export default function App() {
                   cursor: "pointer",
                   color: "#333"
                 }}
-              >
-                📚 Grammar
-              </button>
+              >��</button>
               {showGrammarDropdown && (
                 <div className="grammar-dropdown-menu">
                   <div style={{ fontSize: 14, lineHeight: 1.5, color: "#333", paddingBottom: "20px" }}>
@@ -1242,9 +1224,7 @@ export default function App() {
                   cursor: "pointer",
                   color: "#333"
                 }}
-              >
-                📚 Grammar
-              </button>
+              >��</button>
               {showGrammarDropdown && (
                 <div className="grammar-dropdown-menu">
                   <div style={{ fontSize: 14, lineHeight: 1.5, color: "#333", paddingBottom: "20px" }}>
@@ -1335,9 +1315,7 @@ export default function App() {
                   cursor: "pointer",
                   color: "#333"
                 }}
-              >
-                📚 Grammar
-              </button>
+              >��</button>
               {showGrammarDropdown && (
                 <div className="grammar-dropdown-menu">
                   <div style={{ fontSize: 14, lineHeight: 1.5, color: "#333", paddingBottom: "20px" }}>
@@ -1400,9 +1378,7 @@ export default function App() {
                   cursor: "pointer",
                   color: "#333"
                 }}
-              >
-                📚 Grammar
-              </button>
+              >��</button>
               {showGrammarDropdown && (
                 <div className="grammar-dropdown-menu">
                   <div style={{ fontSize: 14, lineHeight: 1.5, color: "#333", paddingBottom: "20px" }}>
@@ -1605,7 +1581,7 @@ export default function App() {
     return (
       <>
         <div className="top-bar">
-          <button onClick={() => setView('home')} className="back-button">← Retour</button>
+          <button onClick={() => setView('home')} className="back-button">←</button>
           <h3 className="page-title">Pratiquer la grammaire</h3>
         </div>
         <div className="page-container">
