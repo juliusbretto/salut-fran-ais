@@ -482,7 +482,7 @@ export const transport = [
     { french: "un hélicoptère", english: "a helicopter" },
     { french: "un routier", english: "a truck driver" },
     { french: "un missile", english: "a missile" },
-    { french: "un ballon", english: "a ball" },
+    { french: "une montgolfière", english: "a hot air balloon" },
     { french: "un sous-marin", english: "a submarine" },
     { french: "une autoroute", english: "a freeway" },
     { french: "transit", english: "transit" },
@@ -498,7 +498,16 @@ export const transport = [
     { french: "un garage", english: "a garage" },
     { french: "un wagon", english: "a wagon" },
     { french: "une fusée", english: "a rocket" },
-    { french: "un ascenseur", english: "an elevator" }
+    { french: "un ascenseur", english: "an elevator" },
+    { french: "un métro", english: "a subway" },
+    { french: "une moto", english: "a motorcycle" },
+    { french: "un tramway", english: "a tram" },
+    { french: "une trottinette", english: "a scooter (kick or electric)" },
+    { french: "un passager", english: "a passenger" },
+    { french: "un conducteur", english: "a driver" },
+    { french: "un quai", english: "a platform (same as dock/wharf)" },
+    { french: "un billet", english: "a ticket" },
+    { french: "des bagages", english: "luggage" }
 ]
 
 export const famille = [
@@ -533,13 +542,21 @@ export const famille = [
     { french: "des petits-enfants", english: "grandchildren" },
     { french: "un petit-fils", english: "a grandson" },
     { french: "une petite-fille", english: "a granddaughter" },
-    { french: "une épouse", english: "a female spouse" }
+    { french: "une épouse", english: "a female spouse" },
+    { french: "un neveu", english: "a nephew" },
+    { french: "une nièce", english: "a niece" },
+    { french: "un beau-père", english: "a father-in-law / stepfather" },
+    { french: "une belle-mère", english: "a mother-in-law / stepmother" },
+    { french: "un beau-frère", english: "a brother-in-law / stepbrother" },
+    { french: "une belle-sœur", english: "a sister-in-law / stepsister" },
+    { french: "une marraine", english: "a godmother" },
+
 ]
 
 export const materiaux = [
     { french: "or", english: "gold" },
     { french: "matériau", english: "material" },
-    { french: "argent", english: "money" },
+    { french: "argent", english: "silver" },
     { french: "papier", english: "paper" },
     { french: "fer", english: "iron" },
     { french: "pierre", english: "stone" },
@@ -550,7 +567,6 @@ export const materiaux = [
     { french: "métal", english: "metal" },
     { french: "uranium", english: "uranium" },
     { french: "charbon", english: "coal" },
-    { french: "matériau", english: "material" },
     { french: "acier", english: "steel" },
     { french: "carton", english: "cardboard" },
     { french: "béton", english: "concrete" },
@@ -573,7 +589,26 @@ export const materiaux = [
     { french: "ivoire", english: "ivory" },
     { french: "paille", english: "straw" },
     { french: "radium", english: "radium" },
-    { french: "granit", english: "granite" }
+    { french: "granit", english: "granite" },
+    { french: "bois", english: "wood" },
+    { french: "verre", english: "glass" },
+    { french: "cuir", english: "leather" },
+    { french: "laine", english: "wool" },
+    { french: "sable", english: "sand" },
+    { french: "argile", english: "clay" },
+    { french: "bronze", english: "bronze" },
+    { french: "lin", english: "linen" },
+    { french: "velours", english: "velvet" },
+    { french: "polyester", english: "polyester" },
+    { french: "nylon", english: "nylon" },
+    { french: "satin", english: "satin" },
+    { french: "dentelle", english: "lace" },
+    { french: "cachemire", english: "cashmere" },
+    { french: "daim", english: "suede" },
+    { french: "élasthanne", english: "spandex / elastane" },
+    { french: "denim", english: "denim" },
+    { french: "polaire", english: "fleece" },
+    { french: "acrylique", english: "acrylic" }
 ]
 
 export const temps = [
@@ -667,7 +702,13 @@ export const temps = [
     { french: "jeudi", english: "Thursday" },
     { french: "vendredi", english: "Friday" },
     { french: "samedi", english: "Saturday" },
-    { french: "dimanche", english: "Sunday" }
+    { french: "dimanche", english: "Sunday" },
+
+    { french: "hier", english: "yesterday" },
+    { french: "avant-hier", english: "the day before yesterday" },
+    { french: "après-demain", english: "the day after tomorrow" },
+    { french: "trimestre", english: "quarter / trimester" },
+    { french: "semestre", english: "semester / half-year" }
 ]
 
 export const sport = [
@@ -711,7 +752,7 @@ export const sport = [
     { french: "la boule", english: "the bowling ball" },
     { french: "le golf", english: "the golf" },
     { french: "la piscine", english: "the pool" },
-    { french: "l'hockey", english: "the hockey" },
+    { french: "le hockey", english: "the hockey" },
     { french: "le rugby", english: "the rugby" },
     { french: "le basket", english: "the basketball" },
     { french: "la plongée", english: "the diving" },
@@ -732,7 +773,19 @@ export const sport = [
     { french: "le slalom", english: "the slalom" },
     { french: "le ring", english: "the boxing ring" },
     { french: "la natation", english: "the swimming" },
-    { french: "le patin", english: "the skate" }
+    { french: "le patin", english: "the skate" },
+
+    { french: "le cyclisme", english: "the cycling" },
+    { french: "le volley", english: "the volleyball" },
+    { french: "l'équitation", english: "the horseback riding" },
+    { french: "la voile", english: "the sailing" },
+    { french: "l'escalade", english: "the rock climbing" },
+    { french: "la raquette", english: "the racket" },
+    { french: "le filet", english: "the net" },
+    { french: "le casque", english: "the helmet" },
+    { french: "l'arbitre", english: "the referee" },
+    { french: "la médaille", english: "the medal" },
+    { french: "le score", english: "the score" }
 
 ]
 
