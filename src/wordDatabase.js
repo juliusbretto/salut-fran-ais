@@ -1,100 +1,100 @@
 export const animals = [
-  { french: "un animal", english: "an animal" },
-  { french: "un poisson", english: "a fish" },
-  { french: "un chien", english: "a dog" },
-  { french: "un cheval", english: "a horse" },
-  { french: "un oiseau", english: "a bird" },
-  { french: "une bête", english: "a beast" },
-  { french: "une vache", english: "a cow" },
-  { french: "un chat", english: "a cat" },
-  { french: "un monstre", english: "a monster" },
-  { french: "un virus", english: "a virus" },
-  { french: "un bœuf", english: "an ox" },
-  { french: "un loup", english: "a wolf" },
-  { french: "un mouton", english: "a sheep" },
-  { french: "un rat", english: "a rat" },
-  { french: "une poule", english: "a hen" },
-  { french: "une souris", english: "a mouse" },
-  { french: "un singe", english: "a monkey" },
-  { french: "un ours", english: "a bear" },
-  { french: "un bétail", english: "livestock" },
-  { french: "un cochon", english: "a pig" },
-  { french: "un canard", english: "a duck" },
-  { french: "un lion", english: "a lion" },
-  { french: "un serpent", english: "a snake" },
-  { french: "une puce", english: "a flea" },
-  { french: "un lapin", english: "a rabbit" },
-  { french: "un papillon", english: "a butterfly" },
-  { french: "un dragon", english: "a dragon" },
-  { french: "une chèvre", english: "a nanny goat" },
-  { french: "un saumon", english: "a salmon" },
-  { french: "une moule", english: "a mussel" }
+    { french: "un animal", english: "an animal" },
+    { french: "un poisson", english: "a fish" },
+    { french: "un chien", english: "a dog" },
+    { french: "un cheval", english: "a horse" },
+    { french: "un oiseau", english: "a bird" },
+    { french: "une bête", english: "a beast" },
+    { french: "une vache", english: "a cow" },
+    { french: "un chat", english: "a cat" },
+    { french: "un monstre", english: "a monster" },
+    { french: "un virus", english: "a virus" },
+    { french: "un bœuf", english: "an ox" },
+    { french: "un loup", english: "a wolf" },
+    { french: "un mouton", english: "a sheep" },
+    { french: "un rat", english: "a rat" },
+    { french: "une poule", english: "a hen" },
+    { french: "une souris", english: "a mouse" },
+    { french: "un singe", english: "a monkey" },
+    { french: "un ours", english: "a bear" },
+    { french: "un bétail", english: "livestock" },
+    { french: "un cochon", english: "a pig" },
+    { french: "un canard", english: "a duck" },
+    { french: "un lion", english: "a lion" },
+    { french: "un serpent", english: "a snake" },
+    { french: "une puce", english: "a flea" },
+    { french: "un lapin", english: "a rabbit" },
+    { french: "un papillon", english: "a butterfly" },
+    { french: "un dragon", english: "a dragon" },
+    { french: "une chèvre", english: "a nanny goat" },
+    { french: "un saumon", english: "a salmon" },
+    { french: "une moule", english: "a mussel" }
 ]
 
 export const corps = [
-  { french: "une tête", english: "a head" },
-  { french: "une voix", english: "a voice" },
-  { french: "une main", english: "a hand" },
-  { french: "un œil", english: "an eye" },
-  { french: "les yeux", english: "the eyes" },
-  { french: "un esprit", english: "a mind" },
-  { french: "un sein", english: "a bosom" },
-  { french: "un cœur", english: "a heart" },
-  { french: "un pied", english: "a foot" },
-  { french: "une langue", english: "a tongue" },
-  { french: "sang", english: "blood" },
-  { french: "un bras", english: "an arm" },
-  { french: "un visage", english: "a face" },
-  { french: "une côte", english: "a rib (also coast)" },
-  { french: "un dos", english: "a back" },
-  { french: "un front", english: "a forehead" },
-  { french: "une figure", english: "a face (or figure)" },
-  { french: "une bouche", english: "a mouth (formal)" },
-  { french: "une oreille", english: "an ear" },
-  { french: "un doigt", english: "a finger" },
-  { french: "un cerveau", english: "a brain" },
-  { french: "peau", english: "skin" },
-  { french: "cheveu", english: "hair (on the head)" },
-  { french: "un sac", english: "a sac" },
-  { french: "un organe", english: "an organ" },
-  { french: "une jambe", english: "a leg" },
-  { french: "une épaule", english: "a shoulder" },
-  { french: "un nez", english: "a nose" },
-  { french: "un tissu", english: "a tissue (body part)" },
-  { french: "une dent", english: "a tooth" },
-  { french: "un cadavre", english: "a corpse" },
-  { french: "une lèvre", english: "a lip" },
-  { french: "un cul", english: "an ass" },
-  { french: "un genou", english: "a knee" },
-  { french: "une gueule", english: "a mouth (slang/non-human)" },
-  { french: "un ventre", english: "a belly" },
-  { french: "chair", english: "flesh" },
-  { french: "un pouce", english: "a thumb" },
-  { french: "un cou", english: "a neck" },
-  { french: "un poing", english: "a fist" },
-  { french: "une joue", english: "a cheek" },
-  { french: "un os", english: "a bone" },
-  { french: "une poitrine", english: "a breast" },
-  { french: "une gorge", english: "a throat" },
-  { french: "un crâne", english: "a skull" },
-  { french: "un coude", english: "an elbow" },
-  { french: "un poumon", english: "a lung" },
-  { french: "poil", english: "hair (on the body)" },
-  { french: "un foie", english: "a liver" },
-  { french: "un talon", english: "a heel" },
-  { french: "une barbe", english: "a beard" },
-  { french: "une veine", english: "a vein" },
-  { french: "une cuisse", english: "a thigh" },
-  { french: "un rein", english: "a kidney" },
-  { french: "un muscle", english: "a muscle" },
-  { french: "une fesse", english: "a buttock" },
-  { french: "un estomac", english: "a stomach" },
-  { french: "un ongle", english: "a fingernail" },
-  { french: "une cheville", english: "an ankle" },
-  { french: "un sourcil", english: "an eyebrow" },
-  { french: "une moustache", english: "a moustache" },
-  { french: "une hormone", english: "a hormone" },
-  { french: "une tumeur", english: "a tumor" }
+    { french: "une tête", english: "a head" },
+    { french: "une voix", english: "a voice" },
+    { french: "une main", english: "a hand" },
+    { french: "un œil", english: "an eye" },
+    { french: "les yeux", english: "the eyes" },
+    { french: "un esprit", english: "a mind" },
+    { french: "un sein", english: "a bosom" },
+    { french: "un cœur", english: "a heart" },
+    { french: "un pied", english: "a foot" },
+    { french: "une langue", english: "a tongue" },
+    { french: "sang", english: "blood" },
+    { french: "un bras", english: "an arm" },
+    { french: "un visage", english: "a face" },
+    { french: "une côte", english: "a rib (also coast)" },
+    { french: "un dos", english: "a back" },
+    { french: "un front", english: "a forehead" },
+    { french: "une figure", english: "a face (or figure)" },
+    { french: "une bouche", english: "a mouth (formal)" },
+    { french: "une oreille", english: "an ear" },
+    { french: "un doigt", english: "a finger" },
+    { french: "un cerveau", english: "a brain" },
+    { french: "peau", english: "skin" },
+    { french: "cheveu", english: "hair (on the head)" },
+    { french: "un sac", english: "a sac" },
+    { french: "un organe", english: "an organ" },
+    { french: "une jambe", english: "a leg" },
+    { french: "une épaule", english: "a shoulder" },
+    { french: "un nez", english: "a nose" },
+    { french: "un tissu", english: "a tissue (body part)" },
+    { french: "une dent", english: "a tooth" },
+    { french: "un cadavre", english: "a corpse" },
+    { french: "une lèvre", english: "a lip" },
+    { french: "un cul", english: "an ass" },
+    { french: "un genou", english: "a knee" },
+    { french: "une gueule", english: "a mouth (slang/non-human)" },
+    { french: "un ventre", english: "a belly" },
+    { french: "chair", english: "flesh" },
+    { french: "un pouce", english: "a thumb" },
+    { french: "un cou", english: "a neck" },
+    { french: "un poing", english: "a fist" },
+    { french: "une joue", english: "a cheek" },
+    { french: "un os", english: "a bone" },
+    { french: "une poitrine", english: "a breast" },
+    { french: "une gorge", english: "a throat" },
+    { french: "un crâne", english: "a skull" },
+    { french: "un coude", english: "an elbow" },
+    { french: "un poumon", english: "a lung" },
+    { french: "poil", english: "hair (on the body)" },
+    { french: "un foie", english: "a liver" },
+    { french: "un talon", english: "a heel" },
+    { french: "une barbe", english: "a beard" },
+    { french: "une veine", english: "a vein" },
+    { french: "une cuisse", english: "a thigh" },
+    { french: "un rein", english: "a kidney" },
+    { french: "un muscle", english: "a muscle" },
+    { french: "une fesse", english: "a buttock" },
+    { french: "un estomac", english: "a stomach" },
+    { french: "un ongle", english: "a fingernail" },
+    { french: "une cheville", english: "an ankle" },
+    { french: "un sourcil", english: "an eyebrow" },
+    { french: "une moustache", english: "a moustache" },
+    { french: "une hormone", english: "a hormone" },
+    { french: "une tumeur", english: "a tumor" }
 ]
 
 export const nourriture = [
@@ -149,7 +149,34 @@ export const nourriture = [
     { french: "un gâteau", english: "a cake" },
     { french: "une céréale", english: "a cereal" },
     { french: "un cocktail", english: "a cocktail" },
-    { french: "riz", english: "rice" }
+    { french: "riz", english: "rice" },
+    { french: "une banane", english: "a banana" },
+    { french: "une tomate", english: "a tomato" },
+    { french: "une pomme de terre", english: "a potato" },
+    { french: "une carotte", english: "a carrot" },
+    { french: "un oignon", english: "an onion" },
+    { french: "ail", english: "garlic" },
+    { french: "un champignon", english: "a mushroom" },
+    { french: "une salade", english: "a salad" },
+    { french: "une fraise", english: "a strawberry" },
+    { french: "un citron", english: "a lemon" },
+    { french: "un raisin", english: "a grape" },
+    { french: "une poire", english: "a pear" },
+    { french: "une pêche", english: "a peach" },
+    { french: "une cerise", english: "a cherry" },
+    { french: "une noix", english: "a walnut" },
+    { french: "une amande", english: "an almond" },
+    { french: "une cacahuète", english: "a peanut" },
+    { french: "une noisette", english: "a hazelnut" },
+    { french: "miel", english: "honey" },
+    { french: "poivre", english: "pepper" },
+    { french: "un dessert", english: "a dessert" },
+    { french: "une confiture", english: "a jam" },
+    { french: "un avocat", english: "an avocado" },
+    { french: "un poivron", english: "a bell pepper" },
+    { french: "un concombre", english: "a cucumber" },
+    { french: "une framboise", english: "a raspberry" },
+    { french: "une pastèque", english: "a watermelon" }
 ]
 
 export const cuisine = [
@@ -202,7 +229,7 @@ export const cuisine = [
     { french: "un tablier", english: "an apron" },
     { french: "une poubelle", english: "a trash bin" },
     { french: "un moule", english: "a baking pan / mold" }
-  ]
+]
 
 export const lieux = [
     { french: "une maison", english: "a house" },
@@ -262,42 +289,42 @@ export const lieux = [
     { french: "un boucher", english: "a butcher" },
     { french: "un poissonnerie", english: "a fish shop" },
     { french: "un marché aux puces", english: "a flea market" },
-  ]
-  
+]
+
 export const habillement = [
-    { french: "un bas", english: "a stocking" }, 
-    { french: "un complet", english: "a suit (old fashioned)" }, 
-    { french: "une poche", english: "a pocket" }, 
-    { french: "un vêtement", english: "a garment" }, 
-    { french: "une robe", english: "a dress" }, 
-    { french: "un chapeau", english: "a hat" }, 
-    { french: "une manche", english: "a sleeve" }, 
-    { french: "une chaussure", english: "a shoe" }, 
-    { french: "un manteau", english: "a coat" }, 
-    { french: "une chemise", english: "a shirt" }, 
-    { french: "un bouton", english: "a button" }, 
-    { french: "une ceinture", english: "a belt" }, 
-    { french: "un pantalon", english: "trousers" }, 
-    { french: "une botte", english: "a boot" }, 
-    { french: "un gant", english: "a glove" }, 
-    { french: "un maillot", english: "a jersey (sports)" }, 
-    { french: "une veste", english: "a (regular) jacket" }, 
-    { french: "une jupe", english: "a skirt" }, 
-    { french: "un mouchoir", english: "a handkerchief" }, 
-    { french: "une cravate", english: "a necktie" }, 
-    { french: "un foulard", english: "a scarf" }, 
-    { french: "habillement", english: "clothing" }, 
-    { french: "un vestiaire", english: "a cloakroom" }, 
-    { french: "un bonnet", english: "a bonnet" }, 
-    { french: "une blouse", english: "a blouse" }, 
-    { french: "lingerie", english: "lingerie" }, 
-    { french: "un tablier", english: "an apron" }, 
-    { french: "une bague", english: "a ring" }, 
-    { french: "un sabot", english: "a clog" }, 
-    { french: "des bretelles", english: "suspenders" }, 
-    { french: "un veston", english: "a (men's suit)jacket" }, 
-    { french: "un t-shirt", english: "a T-shirt" }, 
-    { french: "un slip", english: "tight underwear (homme ou femme)" }, 
+    { french: "un bas", english: "a stocking" },
+    { french: "un complet", english: "a suit (old fashioned)" },
+    { french: "une poche", english: "a pocket" },
+    { french: "un vêtement", english: "a garment" },
+    { french: "une robe", english: "a dress" },
+    { french: "un chapeau", english: "a hat" },
+    { french: "une manche", english: "a sleeve" },
+    { french: "une chaussure", english: "a shoe" },
+    { french: "un manteau", english: "a coat" },
+    { french: "une chemise", english: "a shirt" },
+    { french: "un bouton", english: "a button" },
+    { french: "une ceinture", english: "a belt" },
+    { french: "un pantalon", english: "trousers" },
+    { french: "une botte", english: "a boot" },
+    { french: "un gant", english: "a glove" },
+    { french: "un maillot", english: "a jersey (sports)" },
+    { french: "une veste", english: "a (regular) jacket" },
+    { french: "une jupe", english: "a skirt" },
+    { french: "un mouchoir", english: "a handkerchief" },
+    { french: "une cravate", english: "a necktie" },
+    { french: "un foulard", english: "a scarf" },
+    { french: "habillement", english: "clothing" },
+    { french: "un vestiaire", english: "a cloakroom" },
+    { french: "un bonnet", english: "a bonnet" },
+    { french: "une blouse", english: "a blouse" },
+    { french: "lingerie", english: "lingerie" },
+    { french: "un tablier", english: "an apron" },
+    { french: "une bague", english: "a ring" },
+    { french: "un sabot", english: "a clog" },
+    { french: "des bretelles", english: "suspenders" },
+    { french: "un veston", english: "a (men's suit)jacket" },
+    { french: "un t-shirt", english: "a T-shirt" },
+    { french: "un slip", english: "tight underwear (homme ou femme)" },
     { french: "un badge", english: "a badge" },
     { french: "des chaussettes", english: "socks" },
     { french: "un jean", english: "a pair of jeans" },
@@ -691,12 +718,12 @@ export const weather = [
     { french: "pluvieux", english: "rainy" },
     { french: "l'humidité", english: "the humidity" },
     { french: "ensoleillé", english: "sunny" },
-    { french: "il y a de la pluie", english: "it is rainy"},
-    { french: "il y a du vent", english: "it is windy"},
-    { french: "il y a du soleil", english: "it is sunny"},
-    { french: "il fait froid", english: "it is cold"},
-    { french: "il fait mauvais", english: "it is bad weather"},
-    { french: "il fait beau", english: "it is nice weather"},
+    { french: "il y a de la pluie", english: "it is rainy" },
+    { french: "il y a du vent", english: "it is windy" },
+    { french: "il y a du soleil", english: "it is sunny" },
+    { french: "il fait froid", english: "it is cold" },
+    { french: "il fait mauvais", english: "it is bad weather" },
+    { french: "il fait beau", english: "it is nice weather" },
 ]
 
 export const metiers = [
@@ -798,7 +825,7 @@ export const directions = [
     { french: "à travers", english: "through / across" },
     { french: "en direction de", english: "in the direction of" },
     { french: "à proximité de", english: "close to / in the vicinity of" },
-    
+
     { french: "tourner", english: "to turn" },
     { french: "continuer", english: "to continue" },
     { french: "aller", english: "to go" },
@@ -809,7 +836,7 @@ export const directions = [
     { french: "prendre à droite", english: "to take a right" },
     { french: "monter", english: "to go up" },
     { french: "descendre", english: "to go down" },
-    
+
     { french: "un carrefour", english: "an intersection" },
     { french: "un rond-point", english: "a roundabout" },
     { french: "un trottoir", english: "a sidewalk" },
@@ -1279,8 +1306,8 @@ export const futurProche = [
     { french: "nous allons prendre le déjeuner", english: "we are going to have lunch" },
     { french: "vous allez attendre ici", english: "you are going to wait here" },
     { french: "ils vont étudier à la bibliothèque", english: "they are going to study at the library" },
-    { french: "elles vont jouer du piano", english: "they are going to play the piano" }   
-    
+    { french: "elles vont jouer du piano", english: "they are going to play the piano" }
+
 ]
 
 export const passeComposé = [
@@ -1339,7 +1366,7 @@ export const passeComposé = [
     { french: "nous avons terminé le projet", english: "we finished the project" },
     { french: "ils ont travaillé toute la journée", english: "they worked all day" }
 
-    
+
 ]
 
 export const imparfait = [
@@ -1715,7 +1742,7 @@ export const prepositions = [
     { french: "Il a fini ___ cinq minutes", answer: "en", clue: "in (time taken)" },
     { french: "Je mange ___ de partir", answer: "avant", clue: "before" },
     { french: "Il faut étudier ___ l'examen", answer: "avant", clue: "before" }
-    
+
 ]
 
 export const demonstratifs = [
@@ -1729,7 +1756,7 @@ export const demonstratifs = [
     { french: "___ appartement est très lumineux.", answer: "Cet", clue: "this apartment (masc. before vowel)" },
     { french: "___ chanson est ma préférée.", answer: "Cette", clue: "this song (fem.)" },
     { french: "___ arbres sont magnifiques en automne.", answer: "Ces", clue: "these trees (plural)" },
-  
+
     // 🟧 Celui / Celle / Ceux / Celles — "the one / the ones"
     { french: "Je préfère ___ de gauche", english: "I prefer the one on the left", answer: "celui", clue: "the one (masc. sing.)" },
     { french: "___ qui parle est ma sœur", english: "The one who speaks is my sister", answer: "Celle", clue: "the one (fem. sing.)" },
@@ -1768,106 +1795,106 @@ export const demonstratifs = [
 ]
 
 export const imperatif = [
-  // Regular verbs - Tu form
-  { french: "___ ton livre !", english: "Take your book!", answer: "Prends", clue: "take (tu form)" },
-  { french: "___ la porte !", english: "Close the door!", answer: "Ferme", clue: "close (tu form)" },
-  { french: "___ le français !", english: "Speak French!", answer: "Parle", clue: "speak (tu form)" },
-  { french: "___ ton devoir !", english: "Do your homework!", answer: "Fais", clue: "do (tu form)" },
-  { french: "___ ici !", english: "Come here!", answer: "Viens", clue: "come (tu form)" },
-  { french: "___ de l'eau !", english: "Drink water!", answer: "Bois", clue: "drink (tu form)" },
-  { french: "___ attention !", english: "Pay attention!", answer: "Fais", clue: "do (tu form)" },
-  
-  // Irregular verbs - Tu form
-  { french: "___ calme !", english: "Be calm!", answer: "Sois", clue: "be (être - tu form)" },
-  { french: "___ courage !", english: "Have courage!", answer: "Aie", clue: "have (avoir - tu form)" },
-  { french: "___ la vérité !", english: "Know the truth!", answer: "Sache", clue: "know (savoir - tu form)" },
-  { french: "___ à la maison !", english: "Go home!", answer: "Va", clue: "go (aller - tu form)" },
-  
-  // Object pronouns - Tu form
-  { french: "___-moi ce livre !", english: "Give me this book!", answer: "Donne", clue: "give me (tu form)" },
-  { french: "___-le !", english: "Take it!", answer: "Prends", clue: "take it (tu form)" },
-  { french: "___-en !", english: "Talk about it!", answer: "Parles", clue: "speak about it (tu form)" },
-  { french: "___-y !", english: "Think about it!", answer: "Penses", clue: "think about it (tu form)" },
-  
-  // Nous form
-  { french: "___ ensemble !", english: "Let's go together!", answer: "Allons", clue: "let's go (nous form)" },
-  { french: "___ le français !", english: "Let's speak French!", answer: "Parlons", clue: "let's speak (nous form)" },
-  { french: "___ le travail !", english: "Let's do the work!", answer: "Faisons", clue: "let's do (nous form)" },
-  { french: "___ à la fête !", english: "Let's go to the party!", answer: "Allons", clue: "let's go (nous form)" },
-  { french: "___ le dîner !", english: "Let's have dinner!", answer: "Prenons", clue: "let's have (nous form)" },
-  { french: "___ calmes !", english: "Let's be calm!", answer: "Soyons", clue: "let's be (être - nous form)" },
-  { french: "___ courage !", english: "Let's have courage!", answer: "Ayons", clue: "let's have (avoir - nous form)" },
-  { french: "___ la vérité !", english: "Let's know the truth!", answer: "Sachons", clue: "let's know (savoir - nous form)" },
-  
-  // Vous form
-  { french: "___ votre temps !", english: "Take your time!", answer: "Prenez", clue: "take (vous form)" },
-  { french: "___ la porte !", english: "Close the door!", answer: "Fermez", clue: "close (vous form)" },
-  { french: "___ ici !", english: "Come here!", answer: "Venez", clue: "come (vous form)" },
-  { french: "___ français !", english: "Speak French!", answer: "Parlez", clue: "speak (vous form)" },
-  { french: "___ attention !", english: "Pay attention!", answer: "Faites", clue: "do (vous form)" },
-  { french: "___ calmes !", english: "Be calm!", answer: "Soyez", clue: "be (être - vous form)" },
-  { french: "___ courage !", english: "Have courage!", answer: "Ayez", clue: "have (avoir - vous form)" },
-  { french: "___ la vérité !", english: "Know the truth!", answer: "Sachez", clue: "know (savoir - vous form)" },
-  { french: "___ à la maison !", english: "Go home!", answer: "Allez", clue: "go (aller - vous form)" },
-  
-  // Object pronouns - Vous form
-  { french: "___-nous la photo !", english: "Show us the picture!", answer: "Montrez", clue: "show us (vous form)" },
-  { french: "___-les !", english: "Listen to them!", answer: "Écoutez", clue: "listen to them (vous form)" },
-  { french: "___-en !", english: "Talk about it!", answer: "Parlez", clue: "speak about it (vous form)" },
-  { french: "___-y !", english: "Think about it!", answer: "Pensez", clue: "think about it (vous form)" },
-  
-  // Reflexive verbs
-  { french: "___-toi !", english: "Get up!", answer: "Lève", clue: "get up (reflexive - tu form)" },
-  { french: "___-nous !", english: "Let's get up!", answer: "Levons", clue: "let's get up (reflexive - nous form)" },
-  { french: "___-vous !", english: "Get up!", answer: "Levez", clue: "get up (reflexive - vous form)" },
-  
-  // Negative commands
-  { french: "Ne ___ pas !", english: "Don't speak!", answer: "parle", clue: "don't speak (negative tu form)" },
-  { french: "Ne ___ pas !", english: "Don't go!", answer: "va", clue: "don't go (negative tu form)" },
-  { french: "Ne ___ pas !", english: "Don't do it!", answer: "fais", clue: "don't do (negative tu form)" },
-  { french: "Ne ___ pas !", english: "Don't be late!", answer: "sois", clue: "don't be (negative tu form)" },
-  { french: "Ne ___ pas !", english: "Don't give me anything!", answer: "donnez", clue: "don't give (negative vous form)" },
-  
-  // Special cases
-  { french: "___ entrer !", english: "Please enter!", answer: "Veuillez", clue: "please (vouloir - vous form)" },
-  { french: "___-moi !", english: "Give me!", answer: "Donne", clue: "give me (tu form)" },
-  { french: "___-nous !", english: "Show us!", answer: "Montrez", clue: "show us (vous form)" }
+    // Regular verbs - Tu form
+    { french: "___ ton livre !", english: "Take your book!", answer: "Prends", clue: "take (tu form)" },
+    { french: "___ la porte !", english: "Close the door!", answer: "Ferme", clue: "close (tu form)" },
+    { french: "___ le français !", english: "Speak French!", answer: "Parle", clue: "speak (tu form)" },
+    { french: "___ ton devoir !", english: "Do your homework!", answer: "Fais", clue: "do (tu form)" },
+    { french: "___ ici !", english: "Come here!", answer: "Viens", clue: "come (tu form)" },
+    { french: "___ de l'eau !", english: "Drink water!", answer: "Bois", clue: "drink (tu form)" },
+    { french: "___ attention !", english: "Pay attention!", answer: "Fais", clue: "do (tu form)" },
+
+    // Irregular verbs - Tu form
+    { french: "___ calme !", english: "Be calm!", answer: "Sois", clue: "be (être - tu form)" },
+    { french: "___ courage !", english: "Have courage!", answer: "Aie", clue: "have (avoir - tu form)" },
+    { french: "___ la vérité !", english: "Know the truth!", answer: "Sache", clue: "know (savoir - tu form)" },
+    { french: "___ à la maison !", english: "Go home!", answer: "Va", clue: "go (aller - tu form)" },
+
+    // Object pronouns - Tu form
+    { french: "___-moi ce livre !", english: "Give me this book!", answer: "Donne", clue: "give me (tu form)" },
+    { french: "___-le !", english: "Take it!", answer: "Prends", clue: "take it (tu form)" },
+    { french: "___-en !", english: "Talk about it!", answer: "Parles", clue: "speak about it (tu form)" },
+    { french: "___-y !", english: "Think about it!", answer: "Penses", clue: "think about it (tu form)" },
+
+    // Nous form
+    { french: "___ ensemble !", english: "Let's go together!", answer: "Allons", clue: "let's go (nous form)" },
+    { french: "___ le français !", english: "Let's speak French!", answer: "Parlons", clue: "let's speak (nous form)" },
+    { french: "___ le travail !", english: "Let's do the work!", answer: "Faisons", clue: "let's do (nous form)" },
+    { french: "___ à la fête !", english: "Let's go to the party!", answer: "Allons", clue: "let's go (nous form)" },
+    { french: "___ le dîner !", english: "Let's have dinner!", answer: "Prenons", clue: "let's have (nous form)" },
+    { french: "___ calmes !", english: "Let's be calm!", answer: "Soyons", clue: "let's be (être - nous form)" },
+    { french: "___ courage !", english: "Let's have courage!", answer: "Ayons", clue: "let's have (avoir - nous form)" },
+    { french: "___ la vérité !", english: "Let's know the truth!", answer: "Sachons", clue: "let's know (savoir - nous form)" },
+
+    // Vous form
+    { french: "___ votre temps !", english: "Take your time!", answer: "Prenez", clue: "take (vous form)" },
+    { french: "___ la porte !", english: "Close the door!", answer: "Fermez", clue: "close (vous form)" },
+    { french: "___ ici !", english: "Come here!", answer: "Venez", clue: "come (vous form)" },
+    { french: "___ français !", english: "Speak French!", answer: "Parlez", clue: "speak (vous form)" },
+    { french: "___ attention !", english: "Pay attention!", answer: "Faites", clue: "do (vous form)" },
+    { french: "___ calmes !", english: "Be calm!", answer: "Soyez", clue: "be (être - vous form)" },
+    { french: "___ courage !", english: "Have courage!", answer: "Ayez", clue: "have (avoir - vous form)" },
+    { french: "___ la vérité !", english: "Know the truth!", answer: "Sachez", clue: "know (savoir - vous form)" },
+    { french: "___ à la maison !", english: "Go home!", answer: "Allez", clue: "go (aller - vous form)" },
+
+    // Object pronouns - Vous form
+    { french: "___-nous la photo !", english: "Show us the picture!", answer: "Montrez", clue: "show us (vous form)" },
+    { french: "___-les !", english: "Listen to them!", answer: "Écoutez", clue: "listen to them (vous form)" },
+    { french: "___-en !", english: "Talk about it!", answer: "Parlez", clue: "speak about it (vous form)" },
+    { french: "___-y !", english: "Think about it!", answer: "Pensez", clue: "think about it (vous form)" },
+
+    // Reflexive verbs
+    { french: "___-toi !", english: "Get up!", answer: "Lève", clue: "get up (reflexive - tu form)" },
+    { french: "___-nous !", english: "Let's get up!", answer: "Levons", clue: "let's get up (reflexive - nous form)" },
+    { french: "___-vous !", english: "Get up!", answer: "Levez", clue: "get up (reflexive - vous form)" },
+
+    // Negative commands
+    { french: "Ne ___ pas !", english: "Don't speak!", answer: "parle", clue: "don't speak (negative tu form)" },
+    { french: "Ne ___ pas !", english: "Don't go!", answer: "va", clue: "don't go (negative tu form)" },
+    { french: "Ne ___ pas !", english: "Don't do it!", answer: "fais", clue: "don't do (negative tu form)" },
+    { french: "Ne ___ pas !", english: "Don't be late!", answer: "sois", clue: "don't be (negative tu form)" },
+    { french: "Ne ___ pas !", english: "Don't give me anything!", answer: "donnez", clue: "don't give (negative vous form)" },
+
+    // Special cases
+    { french: "___ entrer !", english: "Please enter!", answer: "Veuillez", clue: "please (vouloir - vous form)" },
+    { french: "___-moi !", english: "Give me!", answer: "Donne", clue: "give me (tu form)" },
+    { french: "___-nous !", english: "Show us!", answer: "Montrez", clue: "show us (vous form)" }
 ]
 
 export const pronoms = [
-  // Direct object pronouns
-  { french: "Je ___ regarde", english: "I watch him", answer: "le", clue: "him (direct object)" },
-  { french: "Je ___ regarde", english: "I watch her", answer: "la", clue: "her (direct object)" },
-  { french: "Je ___ regarde", english: "I watch them", answer: "les", clue: "them (direct object)" },
-  { french: "Tu ___ manges", english: "You eat it", answer: "le", clue: "it (direct object)" },
-  { french: "Il ___ voit", english: "He sees her", answer: "la", clue: "her (direct object)" },
-  { french: "Nous ___ invitons", english: "We invite them", answer: "les", clue: "them (direct object)" },
-  { french: "Vous ___ aimez", english: "You love her", answer: "la", clue: "her (direct object)" },
-  { french: "Ils ___ mangent", english: "They eat it", answer: "le", clue: "it (direct object)" },
-  
-  // Indirect object pronouns
-  { french: "Je ___ parle", english: "I speak to him", answer: "lui", clue: "to him (indirect object)" },
-  { french: "Je ___ parle", english: "I speak to her", answer: "lui", clue: "to her (indirect object)" },
-  { french: "Je ___ parle", english: "I speak to them", answer: "leur", clue: "to them (indirect object)" },
-  { french: "Tu ___ téléphones", english: "You call them", answer: "leur", clue: "to them (indirect object)" },
-  { french: "Il ___ donne", english: "He gives to me", answer: "me", clue: "to me (indirect object)" },
-  { french: "Elle ___ écrit", english: "She writes to us", answer: "nous", clue: "to us (indirect object)" },
-  { french: "Nous ___ parlons", english: "We speak to you", answer: "vous", clue: "to you (indirect object)" },
-  { french: "Vous ___ donnez", english: "You give to him", answer: "lui", clue: "to him (indirect object)" },
-  
-  // Negative sentences
-  { french: "Je ne ___ regarde pas", english: "I don't watch him", answer: "le", clue: "him (direct object, negative)" },
-  { french: "Tu ne ___ manges pas", english: "You don't eat it", answer: "le", clue: "it (direct object, negative)" },
-  { french: "Il ne ___ parle pas", english: "He doesn't speak to her", answer: "lui", clue: "to her (indirect object, negative)" },
-  { french: "Nous ne ___ voyons pas", english: "We don't see them", answer: "les", clue: "them (direct object, negative)" },
-  { french: "Vous ne ___ téléphonez pas", english: "You don't call them", answer: "leur", clue: "to them (indirect object, negative)" },
-  
-  // Mixed examples
-  { french: "Je ___ donne le livre", english: "I give him the book", answer: "lui", clue: "to him (indirect object)" },
-  { french: "Tu ___ achètes", english: "You buy it", answer: "le", clue: "it (direct object)" },
-  { french: "Elle ___ envoie", english: "She sends to us", answer: "nous", clue: "to us (indirect object)" },
-  { french: "Il ___ montre", english: "He shows her", answer: "la", clue: "her (direct object)" },
-  { french: "Nous ___ offrons", english: "We offer to them", answer: "leur", clue: "to them (indirect object)" }
+    // Direct object pronouns
+    { french: "Je ___ regarde", english: "I watch him", answer: "le", clue: "him (direct object)" },
+    { french: "Je ___ regarde", english: "I watch her", answer: "la", clue: "her (direct object)" },
+    { french: "Je ___ regarde", english: "I watch them", answer: "les", clue: "them (direct object)" },
+    { french: "Tu ___ manges", english: "You eat it", answer: "le", clue: "it (direct object)" },
+    { french: "Il ___ voit", english: "He sees her", answer: "la", clue: "her (direct object)" },
+    { french: "Nous ___ invitons", english: "We invite them", answer: "les", clue: "them (direct object)" },
+    { french: "Vous ___ aimez", english: "You love her", answer: "la", clue: "her (direct object)" },
+    { french: "Ils ___ mangent", english: "They eat it", answer: "le", clue: "it (direct object)" },
+
+    // Indirect object pronouns
+    { french: "Je ___ parle", english: "I speak to him", answer: "lui", clue: "to him (indirect object)" },
+    { french: "Je ___ parle", english: "I speak to her", answer: "lui", clue: "to her (indirect object)" },
+    { french: "Je ___ parle", english: "I speak to them", answer: "leur", clue: "to them (indirect object)" },
+    { french: "Tu ___ téléphones", english: "You call them", answer: "leur", clue: "to them (indirect object)" },
+    { french: "Il ___ donne", english: "He gives to me", answer: "me", clue: "to me (indirect object)" },
+    { french: "Elle ___ écrit", english: "She writes to us", answer: "nous", clue: "to us (indirect object)" },
+    { french: "Nous ___ parlons", english: "We speak to you", answer: "vous", clue: "to you (indirect object)" },
+    { french: "Vous ___ donnez", english: "You give to him", answer: "lui", clue: "to him (indirect object)" },
+
+    // Negative sentences
+    { french: "Je ne ___ regarde pas", english: "I don't watch him", answer: "le", clue: "him (direct object, negative)" },
+    { french: "Tu ne ___ manges pas", english: "You don't eat it", answer: "le", clue: "it (direct object, negative)" },
+    { french: "Il ne ___ parle pas", english: "He doesn't speak to her", answer: "lui", clue: "to her (indirect object, negative)" },
+    { french: "Nous ne ___ voyons pas", english: "We don't see them", answer: "les", clue: "them (direct object, negative)" },
+    { french: "Vous ne ___ téléphonez pas", english: "You don't call them", answer: "leur", clue: "to them (indirect object, negative)" },
+
+    // Mixed examples
+    { french: "Je ___ donne le livre", english: "I give him the book", answer: "lui", clue: "to him (indirect object)" },
+    { french: "Tu ___ achètes", english: "You buy it", answer: "le", clue: "it (direct object)" },
+    { french: "Elle ___ envoie", english: "She sends to us", answer: "nous", clue: "to us (indirect object)" },
+    { french: "Il ___ montre", english: "He shows her", answer: "la", clue: "her (direct object)" },
+    { french: "Nous ___ offrons", english: "We offer to them", answer: "leur", clue: "to them (indirect object)" }
 ]
 
 export const adjectifs = [
@@ -1882,55 +1909,55 @@ export const adjectifs = [
     { french: "Il raconte des histoires ___", english: "He tells funny stories", answer: "drôles", clue: "funny (feminine plural)" },
     { french: "Elle a une voix très ___", english: "She has a very soft voice", answer: "douce", clue: "soft (feminine singular)" },
     { french: "Ton idée est vraiment ___", english: "Your idea is really original", answer: "originale", clue: "original (feminine singular)" },
-    
+
     { french: "Le café est trop ___ pour moi", english: "The coffee is too bitter for me", answer: "amer", clue: "bitter (masculine singular)" },
     { french: "C'est une étudiante très ___", english: "She is a very motivated student", answer: "motivée", clue: "motivated (feminine singular)" },
     { french: "Ce village est ___ mais charmant", english: "This village is small but charming", answer: "petit", clue: "small (masculine singular)" },
     { french: "Il a un regard ___", english: "He has a mysterious look", answer: "mystérieux", clue: "mysterious (masculine singular)" },
     { french: "C'est une question ___", english: "It's an important question", answer: "importante", clue: "important (feminine singular)" },
-    
+
     { french: "Le chemin devient ___ ici", english: "The path gets narrow here", answer: "étroit", clue: "narrow (masculine singular)" },
     { french: "Elle est restée ___ malgré les difficultés", english: "She remained brave despite the difficulties", answer: "courageuse", clue: "brave (feminine singular)" },
     { french: "C'est une rue très ___", english: "It's a noisy street", answer: "bruyante", clue: "noisy (feminine singular)" },
     { french: "Le professeur est très ___ avec ses élèves", english: "The teacher is very patient with his students", answer: "patient", clue: "patient (masculine singular)" },
     { french: "Elle est devenue ___ après la nouvelle", english: "She became sad after the news", answer: "triste", clue: "sad (feminine singular)" },
-    
+
     { french: "Ils ont construit une maison ___", english: "They built a huge house", answer: "énorme", clue: "huge (feminine singular)" },
     { french: "Ce gâteau est vraiment ___", english: "This cake is really delicious", answer: "délicieux", clue: "delicious (masculine singular)" },
     { french: "Son frère est très ___ pour son âge", english: "His brother is very tall for his age", answer: "grand", clue: "tall (masculine singular)" },
     { french: "C'est une élève très ___", english: "She is a very serious student", answer: "sérieuse", clue: "serious (feminine singular)" },
     { french: "Je la trouve assez ___", english: "I find her quite charming", answer: "charmante", clue: "charming (feminine singular)" },
-    
+
     { french: "Le vent devient ___ ce soir", english: "The wind is getting strong tonight", answer: "fort", clue: "strong (masculine singular)" },
     { french: "Son écriture est très ___", english: "His handwriting is very neat", answer: "propre", clue: "neat (feminine singular)" },
     { french: "C'est une femme très ___", english: "She is a very proud woman", answer: "fière", clue: "proud (feminine singular)" },
     { french: "Le paysage ici est vraiment ___", english: "The landscape here is really beautiful", answer: "magnifique", clue: "beautiful/magnificent (masculine singular)" },
     { french: "Cette valise est trop ___ pour moi", english: "This suitcase is too heavy for me", answer: "lourde", clue: "heavy (feminine singular)" },
-    
+
     { french: "C'est une tâche assez ___", english: "It's quite a simple task", answer: "simple", clue: "simple (feminine singular)" },
     { french: "Son explication était trop ___", english: "His explanation was too vague", answer: "vague", clue: "vague (feminine singular)" },
     { french: "Le chien est très ___ avec les enfants", english: "The dog is very gentle with children", answer: "doux", clue: "gentle (masculine singular)" },
     { french: "C'est une amie très ___", english: "She is a very loyal friend", answer: "fidèle", clue: "loyal (feminine singular)" },
     { french: "Ce projet semble trop ___ pour nous", english: "This project seems too ambitious for us", answer: "ambitieux", clue: "ambitious (masculine singular)" },
-    
+
     { french: "Le dessert est trop ___ à mon goût", english: "The dessert is too sweet for my taste", answer: "sucré", clue: "sweet (masculine singular)" },
     { french: "Elle a des cheveux très ___", english: "She has very straight hair", answer: "raides", clue: "straight (masculine plural)" },
     { french: "C'est une réaction assez ___", english: "That's quite a natural reaction", answer: "naturelle", clue: "natural (feminine singular)" },
     { french: "Le service ici est toujours ___", english: "The service here is always slow", answer: "lent", clue: "slow (masculine singular)" },
     { french: "C'est une actrice très ___", english: "She is a very famous actress", answer: "célèbre", clue: "famous (feminine singular)" },
-    
+
     { french: "Ce pull est trop ___ pour l'été", english: "This sweater is too warm for summer", answer: "chaud", clue: "warm (masculine singular)" },
     { french: "Ils sont restés ___ malgré la pluie", english: "They stayed optimistic despite the rain", answer: "optimistes", clue: "optimistic (masculine plural)" },
     { french: "Elle m'a donné une réponse très ___", english: "She gave me a very quick answer", answer: "rapide", clue: "quick (feminine singular)" },
     { french: "C'est une fête vraiment ___", english: "It's a really strange party", answer: "étrange", clue: "strange (feminine singular)" },
     { french: "Ton sac est trop ___", english: "Your bag is too light", answer: "léger", clue: "light (masculine singular)" },
-    
+
     { french: "Cette chanson est très ___", english: "This song is very popular", answer: "populaire", clue: "popular (feminine singular)" },
     { french: "Son frère est plutôt ___", english: "Her brother is rather impatient", answer: "impatient", clue: "impatient (masculine singular)" },
     { french: "C'est une femme assez ___", english: "She is quite discreet", answer: "discrète", clue: "discreet (feminine singular)" },
     { french: "Le professeur est toujours ___ avec moi", english: "The teacher is always strict with me", answer: "sévère", clue: "strict (masculine singular)" },
     { french: "J'ai eu une journée vraiment ___", english: "I had a really exhausting day", answer: "épuisante", clue: "exhausting (feminine singular)" },
-    
+
     { french: "C'est une ___ idée", english: "It's a good idea", answer: "bonne", clue: "good (feminine singular)" },
     { french: "Ce film est très ___", english: "This film is bad", answer: "mauvais", clue: "bad (masculine singular)" },
     { french: "C'est une ___ voiture", english: "It's a small car", answer: "petite", clue: "small (feminine singular)" },
@@ -1941,50 +1968,50 @@ export const adjectifs = [
     { french: "Ils ont une ___ maison à la campagne", english: "They have a new house in the countryside", answer: "nouvelle", clue: "new (feminine singular, irregular)" },
     { french: "Il fait la ___ erreur encore une fois", english: "He makes the same mistake again", answer: "même", clue: "same (feminine singular)" },
     { french: "Je préfère l'___ option", english: "I prefer the other option", answer: "autre", clue: "other (feminine singular)" },
-    
+
     { french: "Ce voyage est trop ___ pour moi", english: "This trip is too long for me", answer: "long", clue: "long (masculine singular)" },
     { french: "J'ai lu un texte assez ___", english: "I read quite a short text", answer: "court", clue: "short (masculine singular)" },
     { french: "C'est la ___ fois que je viens ici", english: "It's the first time I come here", answer: "première", clue: "first (feminine singular)" },
     { french: "C'est le ___ chapitre du livre", english: "It's the last chapter of the book", answer: "dernier", clue: "last (masculine singular)" },
     { french: "C'est la ___ solution pour nous", english: "It's the best solution for us", answer: "meilleure", clue: "best (feminine singular)" },
     { french: "C'est la ___ idée que j'ai entendue", english: "That's the worst idea I've heard", answer: "pire", clue: "worst (feminine singular)" },
-    
+
     // ✅ Existing diverse list (no duplicates)
     { french: "Le ciel est ___ aujourd'hui", english: "The sky is clear today", answer: "clair", clue: "clear (masculine singular)" },
     { french: "Elle porte une robe ___", english: "She is wearing an elegant dress", answer: "élégante", clue: "elegant (feminine singular)" },
     { french: "Ce film est vraiment ___", english: "This movie is really boring", answer: "ennuyeux", clue: "boring (masculine singular)" },
     { french: "J'ai rencontré une femme ___", english: "I met a generous woman", answer: "généreuse", clue: "generous (feminine singular)" },
     { french: "Ils ont un appartement très ___", english: "They have a very modern apartment", answer: "moderne", clue: "modern (masculine singular)" },
-    
+
     { french: "Mon frère est toujours ___ le matin", english: "My brother is always tired in the morning", answer: "fatigué", clue: "tired (masculine singular)" },
     { french: "C'est une décision ___ à prendre", english: "It's a difficult decision to make", answer: "difficile", clue: "difficult (feminine singular)" },
     { french: "Il raconte des histoires ___", english: "He tells funny stories", answer: "drôles", clue: "funny (feminine plural)" },
     { french: "Elle a une voix très ___", english: "She has a very soft voice", answer: "douce", clue: "soft (feminine singular)" },
     { french: "Ton idée est vraiment ___", english: "Your idea is really original", answer: "originale", clue: "original (feminine singular)" },
-    
+
     { french: "Le café est trop ___ pour moi", english: "The coffee is too bitter for me", answer: "amer", clue: "bitter (masculine singular)" },
     { french: "Ce village est ___ mais charmant", english: "This village is small but charming", answer: "petit", clue: "small (masculine singular)" },
     { french: "Il a un regard ___", english: "He has a mysterious look", answer: "mystérieux", clue: "mysterious (masculine singular)" },
     { french: "Le chemin devient ___ ici", english: "The path gets narrow here", answer: "étroit", clue: "narrow (masculine singular)" },
     { french: "C'est une rue très ___", english: "It's a noisy street", answer: "bruyante", clue: "noisy (feminine singular)" },
-    
+
     { french: "Ils ont construit une maison ___", english: "They built a huge house", answer: "énorme", clue: "huge (feminine singular)" },
     { french: "Ce gâteau est vraiment ___", english: "This cake is really delicious", answer: "délicieux", clue: "delicious (masculine singular)" },
     { french: "Son frère est très ___ pour son âge", english: "His brother is very tall for his age", answer: "grand", clue: "tall (masculine singular)" },
     { french: "Je la trouve assez ___", english: "I find her quite charming", answer: "charmante", clue: "charming (feminine singular)" },
     { french: "Le vent devient ___ ce soir", english: "The wind is getting strong tonight", answer: "fort", clue: "strong (masculine singular)" },
-    
+
     { french: "Son écriture est très ___", english: "His handwriting is very neat", answer: "propre", clue: "neat (feminine singular)" },
     { french: "C'est une femme très ___", english: "She is a very proud woman", answer: "fière", clue: "proud (feminine singular)" },
     { french: "Le paysage ici est vraiment ___", english: "The landscape here is really beautiful", answer: "magnifique", clue: "magnificent (masculine singular)" },
     { french: "Cette valise est trop ___ pour moi", english: "This suitcase is too heavy for me", answer: "lourde", clue: "heavy (feminine singular)" },
     { french: "C'est une tâche assez ___", english: "It's quite a simple task", answer: "simple", clue: "simple (feminine singular)" },
-    
+
     { french: "Le chien est très ___ avec les enfants", english: "The dog is very gentle with children", answer: "doux", clue: "gentle (masculine singular)" },
     { french: "C'est une amie très ___", english: "She is a very loyal friend", answer: "fidèle", clue: "loyal (feminine singular)" },
     { french: "Ce projet semble trop ___ pour nous", english: "This project seems too ambitious for us", answer: "ambitieux", clue: "ambitious (masculine singular)" },
     { french: "Elle a des cheveux très ___", english: "She has very straight hair", answer: "raides", clue: "straight (masculine plural)" },
-    { french: "Le service ici est toujours ___", english: "The service here is always slow", answer: "lent", clue: "slow (masculine singular)" } ,     
+    { french: "Le service ici est toujours ___", english: "The service here is always slow", answer: "lent", clue: "slow (masculine singular)" },
 ]
 
 export const adverbes = [
@@ -2154,8 +2181,8 @@ export const eny = [
 ]
 // For backward compatibility, you can still export a combined list
 export const words = [...animals, ...corps, ...nourriture, ...habillement, comparisonnegation,
-                    ...famille, ...materiaux, ...temps, ...transport, ...sport, ...adjectifs,
-                    ...nature, ...weather, ...metiers, ...couleurs, ...articles, ...prepositions, ...demonstratifs, ...pronoms, 
-                    ...verbes, ...vandertramp, ...futurSimple, ...futurProche, ...passeComposé, ...imparfait, ...present, 
-                    ...pronominaux, ...imperatif, ...émotions, ...directions, ...lieux, ...cuisine, ...maison
+...famille, ...materiaux, ...temps, ...transport, ...sport, ...adjectifs,
+...nature, ...weather, ...metiers, ...couleurs, ...articles, ...prepositions, ...demonstratifs, ...pronoms,
+...verbes, ...vandertramp, ...futurSimple, ...futurProche, ...passeComposé, ...imparfait, ...present,
+...pronominaux, ...imperatif, ...émotions, ...directions, ...lieux, ...cuisine, ...maison
 ]
