@@ -17,7 +17,7 @@ export const animals = [
     { french: "une souris", english: "a mouse" },
     { french: "un singe", english: "a monkey" },
     { french: "un ours", english: "a bear" },
-    { french: "un bétail", english: "livestock" },
+    { french: "bétail", english: "livestock" },
     { french: "un cochon", english: "a pig" },
     { french: "un canard", english: "a duck" },
     { french: "un lion", english: "a lion" },
@@ -28,7 +28,17 @@ export const animals = [
     { french: "un dragon", english: "a dragon" },
     { french: "une chèvre", english: "a nanny goat" },
     { french: "un saumon", english: "a salmon" },
-    { french: "une moule", english: "a mussel" }
+    { french: "une moule", english: "a mussel" },
+    { french: "une araignée", english: "a spider" },
+    { french: "une mouche", english: "a fly" },
+    { french: "une abeille", english: "a bee" },
+    { french: "une fourmi", english: "an ant" },
+    { french: "une grenouille", english: "a frog" },
+    { french: "une tortue", english: "a turtle / tortoise" },
+    { french: "un éléphant", english: "an elephant" },
+    { french: "un tigre", english: "a tiger" },
+    { french: "un requin", english: "a shark" },
+    { french: "une baleine", english: "a whale" }
 ]
 
 export const corps = [
@@ -843,8 +853,14 @@ export const nature = [
     { french: "la gorge", english: "the gorge" },
     { french: "la boue", english: "the mud" },
     { french: "la jungle", english: "the jungle" },
-    { french: "la plaine", english: "the plain" }
-
+    { french: "la plaine", english: "the plain" },
+    { french: "le ciel", english: "the sky" },
+    { french: "le soleil", english: "the sun" },
+    { french: "l'herbe", english: "the grass" },
+    { french: "la montagne", english: "the mountain" },
+    { french: "le rocher", english: "the rock / boulder" },
+    { french: "le paysage", english: "the landscape" },
+    { french: "l'océan", english: "the ocean" }
 ]
 
 export const weather = [
@@ -883,6 +899,14 @@ export const weather = [
     { french: "il fait froid", english: "it is cold" },
     { french: "il fait mauvais", english: "it is bad weather" },
     { french: "il fait beau", english: "it is nice weather" },
+    { french: "il pleut", english: "it is raining" },
+    { french: "il neige", english: "it is snowing" },
+    { french: "la foudre", english: "the lightning (in general/the striking bolt)" },
+    { french: "un éclair", english: "a flash of lightning (the visual flash)" },
+    { french: "l'arc-en-ciel", english: "the rainbow" },
+    { french: "la brise", english: "the breeze" },
+    { french: "la grêle", english: "the hail" },
+    { french: "l'ouragan", english: "the hurricane" }
 ]
 
 export const metiers = [
@@ -936,7 +960,19 @@ export const metiers = [
     { french: "le lecteur", english: "the reader" },
     { french: "le marin", english: "the sailor" },
     { french: "le salarié", english: "the employee" },
-    { french: "le docteur", english: "the doctor" }
+    { french: "le docteur", english: "the doctor" },
+    { french: "le policier", english: "the police officer" },
+    { french: "le pompier", english: "the firefighter" },
+    { french: "le mécanicien", english: "the mechanic" },
+    { french: "le plombier", english: "the plumber" },
+    { french: "le boulanger", english: "the baker" },
+    { french: "le boucher", english: "the butcher" },
+    { french: "le coiffeur", english: "the hairdresser" },
+    { french: "l'ingénieur", english: "the engineer" },
+    { french: "le vendeur", english: "the salesperson" },
+    { french: "le cuisinier", english: "the cook / chef" },
+    { french: "le dentiste", english: "the dentist" },
+    { french: "l'agriculteur", english: "the farmer" }
 
 ]
 
@@ -955,11 +991,16 @@ export const couleurs = [
     { french: "orange", english: "orange" },
     { french: "blond", english: "blond" },
     { french: "doré", english: "golden" },
-    { french: "brun", english: "brown" },
+    { french: "brun", english: "brown (hair/fur/skin)" },
     { french: "roux", english: "auburn / red-haired" },
     { french: "foncé", english: "dark" },
     { french: "violet", english: "violet / purple" },
-    { french: "le teint", english: "the complexion / coloring" }
+    { french: "le teint", english: "the complexion / coloring" },
+    { french: "marron", english: "brown (objects/eyes)" },
+    { french: "beige", english: "beige" },
+    { french: "bordeaux", english: "burgundy" },
+    { french: "turquoise", english: "turquoise" },
+    { french: "une nuance", english: "a shade / nuance" }
 
 ]
 
@@ -1010,7 +1051,13 @@ export const directions = [
     { french: "un arrêt", english: "a stop" },
     { french: "un chemin", english: "a path / way" },
     { french: "un raccourci", english: "a shortcut" },
-    { french: "un détour", english: "a detour" }
+    { french: "un détour", english: "a detour" },
+    { french: "au nord", english: "to the north" },
+    { french: "au sud", english: "to the south" },
+    { french: "à l'est", english: "to the east" },
+    { french: "à l'ouest", english: "to the west" },
+    { french: "en haut", english: "upstairs / at the top" },
+    { french: "en bas", english: "downstairs / at the bottom" }
 
 ]
 
@@ -1057,13 +1104,17 @@ export const émotions = [
     { french: "jalouse", english: "jealous (fem.)" },
     { french: "épuisé", english: "exhausted" },
     { french: "déprimé", english: "depressed" },
-    { french: "inquiet/inquiète", english: "anxious" },
     { french: "ravi", english: "delighted" },
     { french: "étonné", english: "astonished" },
     { french: "envieux", english: "envious" },
     { french: "ému", english: "moved, touched" },
     { french: "rêveur", english: "dreamy" },
-    { french: "plein d'espoir", english: "hopeful" }
+    { french: "plein d'espoir", english: "hopeful" },
+    { french: "frustré", english: "frustrated" },
+    { french: "furieux", english: "furious" },
+    { french: "blessé", english: "hurt (physically or emotionally)" },
+    { french: "malade", english: "sick" },
+    { french: "courageux", english: "brave" }
 
 ]
 
@@ -1099,7 +1150,14 @@ export const maison = [
     { french: "des rideaux", english: "curtains" },
     { french: "un miroir", english: "a mirror" },
     { french: "un tableau", english: "a painting / picture" },
-    { french: "un coussin", english: "a cushion / pillow" },
+    { french: "un coussin", english: "a cushion / furniture pillow" },
+    { french: "un couloir", english: "a hallway" },
+    { french: "une cour", english: "a courtyard / yard" },
+    { french: "une douche", english: "a shower" },
+    { french: "une baignoire", english: "a bathtub" },
+    { french: "une serviette", english: "a towel" },
+    { french: "une couverture", english: "a blanket" },
+    { french: "un oreiller", english: "a bed pillow" },
 
     { french: "un réfrigérateur", english: "a refrigerator" },
     { french: "une cuisinière", english: "a stove" },
@@ -1127,13 +1185,17 @@ export const articles = [
     { french: "tu regardes la télé", english: "you watch the TV" },
     { french: "je prends du pain", english: "I take some bread" },
     { french: "elle boit de la soupe", english: "she drinks some soup" },
-    { french: "nous achetons de l'eau", english: "we buy some water" },
     { french: "ils mangent des légumes", english: "they eat some vegetables" },
     { french: "je n'ai pas de livre", english: "I don't have a book" },
     { french: "elle ne veut pas de salade", english: "she doesn't want any salad" },
     { french: "nous ne prenons pas de pain", english: "we don't take any bread" },
     { french: "ils n'ont pas d'eau", english: "they don't have any water" },
     { french: "tu n'aimes pas la soupe", english: "you don't like soup" },
+    { french: "j'ai un chat", english: "I have a cat" },
+    { french: "elle achète une voiture", english: "she buys a car" },
+    { french: "il boit beaucoup d'eau", english: "he drinks a lot of water" },
+    { french: "je voudrais un peu de fromage", english: "I would like a little cheese" },
+    { french: "il y a trop de sucre", english: "there is too much sugar" }
 
 ]
 
