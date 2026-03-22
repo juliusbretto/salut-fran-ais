@@ -302,7 +302,28 @@ export const cuisine = [
     { french: "un minuteur", english: "a timer" },
     { french: "un tablier", english: "an apron" },
     { french: "une poubelle", english: "a trash bin" },
-    { french: "un moule", english: "a baking pan / mold" }
+    { french: "un moule", english: "a baking pan / mold" },
+    { french: "un économe", english: "a peeler" },
+    { french: "un rouleau à pâtisserie", english: "a rolling pin" },
+    { french: "une pince", english: "tongs" },
+    { french: "un presse-ail", english: "a garlic press" },
+    { french: "un entonnoir", english: "a funnel" },
+    { french: "un verre mesureur", english: "a measuring cup" },
+    { french: "un casse-noix", english: "a nutcracker" },
+    { french: "un pichet", english: "a pitcher / jug" },
+    { french: "une théière", english: "a teapot" },
+    { french: "un mug", english: "a mug" },
+    { french: "un plateau", english: "a tray" },
+    { french: "un bocal", english: "a jar" },
+    { french: "une boîte de conservation", english: "a storage container / tupperware" },
+    { french: "du film alimentaire", english: "plastic wrap" },
+    { french: "du papier aluminium", english: "aluminum foil" },
+    { french: "du papier sulfurisé", english: "parchment paper" },
+    { french: "du liquide vaisselle", english: "dish soap" },
+    { french: "un gant de cuisine", english: "an oven mitt" },
+    { french: "une manique", english: "a potholder" },
+    { french: "une cocotte", english: "a Dutch oven / heavy pot" },
+    { french: "une cocotte-minute", english: "a pressure cooker" }
 ]
 
 export const lieux = [
@@ -358,11 +379,17 @@ export const lieux = [
     { french: "une ville", english: "a city" },
     { french: "un supermarché", english: "a supermarket" },
     { french: "une épicerie", english: "a grocery store" },
-    { french: "un boulangerie", english: "a bakery" },
-    { french: "un fromagerie", english: "a cheese shop" },
+    { french: "une boulangerie", english: "a bakery" },
+    { french: "une fromagerie", english: "a cheese shop" },
     { french: "un boucher", english: "a butcher" },
-    { french: "un poissonnerie", english: "a fish shop" },
+    { french: "une poissonnerie", english: "a fish shop" },
     { french: "un marché aux puces", english: "a flea market" },
+    { french: "une station de métro", english: "a subway station" },
+    { french: "une station-service", english: "a gas station" },
+    { french: "un château", english: "a castle" },
+    { french: "un quartier", english: "a neighborhood" },
+    { french: "une banlieue", english: "a suburb" },
+    { french: "une mairie", english: "a town hall / city hall" }
 ]
 
 export const habillement = [
@@ -428,8 +455,13 @@ export const habillement = [
     { french: "des sous-vêtements", english: "(some) underwear" },
     { french: "un soutien-gorge", english: "a bra" },
     { french: "un peignoir", english: "a bathrobe" },
-    { french: "des chaussons", english: "slippers" }
-
+    { french: "des chaussons", english: "slippers" },
+    { french: "un maillot de bain", english: "a swimsuit" },
+    { french: "une casquette", english: "a cap (baseball cap)" },
+    { french: "une fermeture éclair", english: "a zipper" },
+    { french: "un collier", english: "a necklace" },
+    { french: "un bracelet", english: "a bracelet" },
+    { french: "des boucles d'oreilles", english: "earrings" }
 ]
 
 export const transport = [
